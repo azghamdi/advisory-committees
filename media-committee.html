@@ -260,7 +260,15 @@ body.dark .table-builder-card{
 
 .date-box{background:#fff!important;display:flex!important;align-items:center;justify-content:center}
 .date-box strong,.date-box small{display:none!important}
-.date-box::before{content:'';width:54px;height:54px;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='32' fill='%23006c4c'/><rect x='19' y='18' width='26' height='20' rx='3' fill='none' stroke='white' stroke-width='3'/><line x1='32' y1='38' x2='32' y2='45' stroke='white' stroke-width='3'/><line x1='26' y1='45' x2='38' y2='45' stroke='white' stroke-width='3'/><line x1='25' y1='25' x2='25' y2='31' stroke='white' stroke-width='2'/><line x1='32' y1='23' x2='32' y2='33' stroke='white' stroke-width='2'/><line x1='39' y1='27' x2='39' y2='33' stroke='white' stroke-width='2'/></svg>") center/contain no-repeat;display:block}
+.date-box::before{content:'';width:54px;height:54px;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'>
+<circle cx='32' cy='32' r='32' fill='%23006c4c'/>
+<rect x='19' y='18' width='26' height='20' rx='3' fill='none' stroke='white' stroke-width='3'/>
+<line x1='32' y1='38' x2='32' y2='45' stroke='white' stroke-width='3'/>
+<line x1='26' y1='45' x2='38' y2='45' stroke='white' stroke-width='3'/>
+<line x1='25' y1='25' x2='25' y2='31' stroke='white' stroke-width='2'/>
+<line x1='32' y1='23' x2='32' y2='33' stroke='white' stroke-width='2'/>
+<line x1='39' y1='27' x2='39' y2='33' stroke='white' stroke-width='2'/>
+</svg>") center/contain no-repeat;display:block}
 
 /* ===== قسم أداة بناء الجداول مطابق للتصميم المرفق ===== */
 .sr-only{
@@ -1611,7 +1619,9 @@ footer .footer-bottom{display:flex;justify-content:space-between;align-items:cen
 @media(max-width:1100px){nav.main-nav{display:none}footer .footer-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:650px){header.main-header{padding:12px 16px}body>section.hero{padding:52px 18px;min-height:360px}body>section.hero .hero-content h1{font-size:28px}footer{padding:34px 18px 18px}footer .footer-grid{grid-template-columns:1fr}.indicators-section .kpi{text-align:right;align-items:flex-start}.indicators-section .kpi-icon{align-self:flex-start}}
 </style>
-<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&amp;family=IBM+Plex+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&amp;family=IBM+Plex+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <style>
 @media(max-width:650px){
   #statistics,#releases,.semantic-builder{display:block!important;visibility:visible!important;opacity:1!important}
@@ -1623,7 +1633,8 @@ footer .footer-bottom{display:flex;justify-content:space-between;align-items:cen
 .stat-chat-launcher{position:fixed;right:22px;bottom:22px;z-index:9998;display:inline-flex;align-items:center;gap:10px;min-height:54px;padding:8px 10px 8px 17px;border:1px solid rgba(27,131,84,.18);border-radius:999px;background:#fff;color:#18392d;box-shadow:0 14px 38px rgba(16,66,48,.18);cursor:pointer;transition:.22s}.stat-chat-launcher:hover{transform:translateY(-3px);box-shadow:0 19px 44px rgba(16,66,48,.24)}.stat-chat-launcher-icon{width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:#1b8354;color:#fff}.stat-chat-launcher-icon svg{width:21px;height:21px}.stat-chat-launcher-text{font-size:13px;font-weight:800;white-space:nowrap}.stat-chat-launcher-dot{position:absolute;top:5px;right:7px;width:10px;height:10px;border:2px solid #fff;border-radius:50%;background:#a8c52a}
 .stat-chat{position:fixed;right:22px;bottom:88px;z-index:9999;width:min(390px,calc(100vw - 28px));max-height:min(640px,calc(100vh - 120px));display:grid;grid-template-rows:auto auto 1fr auto;overflow:hidden;border:1px solid #dce7e1;border-radius:24px;background:#fff;box-shadow:0 28px 80px rgba(15,59,43,.24);opacity:0;visibility:hidden;transform:translateY(14px) scale(.975);transform-origin:bottom right;transition:.25s}.stat-chat.is-open{opacity:1;visibility:visible;transform:none}.stat-chat-header{position:relative;display:flex;align-items:center;gap:12px;padding:17px 18px;color:#fff;background:linear-gradient(130deg,#123f31 0%,#1b8354 100%)}.stat-chat-avatar{width:44px;height:44px;display:grid;place-items:center;flex:none;border-radius:14px;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.22)}.stat-chat-title{flex:1}.stat-chat-title strong{display:block;font-size:15px}.stat-chat-title span{display:flex;align-items:center;gap:6px;margin-top:4px;font-size:10px;color:rgba(255,255,255,.78)}.stat-chat-title span:before{content:'';width:7px;height:7px;border-radius:50%;background:#c9df54}.stat-chat-close{width:34px;height:34px;display:grid;place-items:center;border:0;border-radius:10px;background:rgba(255,255,255,.13);color:#fff;cursor:pointer}.stat-chat-intro{display:flex;gap:10px;padding:16px 17px 10px;background:#f8fbf9}.stat-chat-botmark{width:35px;height:35px;display:grid;place-items:center;flex:none;border-radius:11px;background:#e8f4ee;color:#1b8354}.stat-chat-bubble{padding:11px 13px;border:1px solid #e0e9e5;border-radius:14px 4px 14px 14px;background:#fff;color:#3f5149;font-size:12px;line-height:1.8}.stat-chat-body{overflow:auto;padding:12px 17px 16px;background:#f8fbf9}.stat-chat-label{margin:0 0 10px;color:#66736d;font-size:11px;font-weight:700}.stat-chat-groups{display:grid;gap:10px}.stat-chat-group{overflow:hidden;border:1px solid #dfe8e4;border-radius:15px;background:#fff}.stat-chat-group-button{width:100%;min-height:50px;display:flex;align-items:center;gap:10px;padding:10px 12px;border:0;background:#fff;color:#253b32;text-align:right;cursor:pointer}.stat-chat-group-button:hover{background:#f4f9f6}.stat-chat-group-icon{width:31px;height:31px;display:grid;place-items:center;flex:none;border-radius:9px;background:#eaf5f0;color:#1b8354}.stat-chat-group-button strong{flex:1;font-size:12px}.stat-chat-chevron{color:#1b8354;transition:.22s}.stat-chat-group.is-open .stat-chat-chevron{transform:rotate(180deg)}.stat-chat-options{display:grid;grid-template-rows:0fr;opacity:0;transition:.25s}.stat-chat-group.is-open .stat-chat-options{grid-template-rows:1fr;opacity:1}.stat-chat-options-inner{min-height:0;overflow:hidden;display:grid;gap:7px;padding:0 10px}.stat-chat-group.is-open .stat-chat-options-inner{padding:0 10px 11px}.stat-chat-option{display:flex;align-items:center;gap:8px;min-height:40px;padding:8px 10px;border:1px solid #e3ebe7;border-radius:10px;background:#fbfdfc;color:#43584f;font-size:11px;font-weight:700}.stat-chat-option:hover{border-color:rgba(27,131,84,.28);background:#eef7f2;color:#146c45}.stat-chat-option:after{content:'←';margin-inline-start:auto;color:#1b8354}.stat-chat-footer{display:flex;gap:8px;padding:12px;border-top:1px solid #e4ebe8;background:#fff}.stat-chat-input{flex:1;min-width:0;height:42px;padding:0 13px;border:1px solid #dce7e2;border-radius:12px;outline:0}.stat-chat-input:focus{border-color:#1b8354;box-shadow:0 0 0 3px rgba(27,131,84,.10)}.stat-chat-send{width:42px;height:42px;display:grid;place-items:center;flex:none;border:0;border-radius:12px;background:#1b8354;color:#fff;cursor:pointer}
 @media(max-width:650px){.stat-chat-launcher{right:14px;bottom:14px;min-width:52px;min-height:52px;padding:7px}.stat-chat-launcher-text{display:none}.stat-chat{right:10px;left:10px;bottom:78px;width:auto;max-height:calc(100dvh - 96px);border-radius:20px;transform-origin:bottom center}.stat-chat-header{padding:14px}.stat-chat-intro{padding:13px 13px 8px}.stat-chat-body{padding:10px 13px 13px}}
-</style><style id="stat-chat-professional-launcher">
+</style>
+<style id="stat-chat-professional-launcher">
 /* ===== أيقونة تحدث مع إحصائي الاحترافية ===== */
 .stat-chat-launcher{
   width:58px!important;
@@ -2475,7 +2486,8 @@ body > section.hero .hero-content{
 @media(max-width:640px){.gastat-nds-carousel{padding-inline:0}.gastat-nds-card{flex-basis:100%}.gastat-nds-control{position:static;transform:none}.gastat-nds-controls-mobile{display:flex;justify-content:center;gap:12px;margin-top:18px}.gastat-nds-progress{margin-top:14px}.gastat-nds-card__media{height:132px}}
 @media(min-width:641px){.gastat-nds-controls-mobile{display:contents}}
 @media(prefers-reduced-motion:reduce){.gastat-nds-track,.gastat-nds-card,.gastat-nds-card__link svg{transition:none!important}}
-</style><style id="gastat-data-search-style">
+</style>
+<style id="gastat-data-search-style">
 .gastat-data-search{position:relative;padding:34px 0 12px;background:linear-gradient(180deg,#f3faf7 0,#fff 100%)}
 .gastat-data-search__panel{position:relative;z-index:5;max-width:980px;margin:auto;padding:26px;border:1px solid #d9e9e2;border-radius:22px;background:rgba(255,255,255,.96);box-shadow:0 14px 38px rgba(20,70,52,.09)}
 .gastat-data-search__heading{display:flex;align-items:center;gap:14px;margin-bottom:18px}
@@ -2499,7 +2511,8 @@ body > section.hero .hero-content{
 .gastat-data-search__empty{padding:24px;text-align:center;color:#687a73}.gastat-search-target{animation:gastatSearchPulse 1.5s ease}
 @keyframes gastatSearchPulse{0%,100%{box-shadow:inherit}35%{box-shadow:0 0 0 5px rgba(8,122,87,.2),0 12px 28px rgba(8,122,87,.14)}}
 @media(max-width:640px){.gastat-data-search{padding-top:22px}.gastat-data-search__panel{padding:18px;border-radius:17px}.gastat-data-search__heading p{font-size:.78rem}.gastat-data-search__box input{height:54px;font-size:.9rem}.gastat-data-search__results{right:18px;left:18px}.gastat-data-search__scopes{flex-wrap:nowrap;overflow:auto;padding-bottom:3px}.gastat-data-search__scopes button{white-space:nowrap}}
-</style><style id="gastat-expandable-search-style">
+</style>
+<style id="gastat-expandable-search-style">
 .gastat-data-search__panel{max-width:720px;padding:14px 16px;transition:max-width .4s cubic-bezier(.22,.61,.36,1),padding .35s ease,box-shadow .35s ease}
 .gastat-data-search__heading{max-height:0;margin:0;overflow:hidden;opacity:0;transform:translateY(-8px);transition:max-height .35s ease,margin .35s ease,opacity .25s ease,transform .35s ease}
 .gastat-data-search__scopes{max-height:0;margin-top:0;overflow:hidden;opacity:0;transform:translateY(-5px);transition:max-height .35s ease,margin .35s ease,opacity .3s ease,transform .35s ease}
@@ -2510,7 +2523,8 @@ body > section.hero .hero-content{
 .gastat-data-search__panel:not(.is-expanded) .gastat-data-search__box input::placeholder{color:#556d64}
 @media(max-width:640px){.gastat-data-search__panel,.gastat-data-search__panel.is-expanded{padding:13px}.gastat-data-search__panel.is-expanded .gastat-data-search__heading{max-height:100px;margin:5px 3px 15px}.gastat-data-search__panel.is-expanded .gastat-data-search__scopes{max-height:48px;margin-top:11px}}
 @media(prefers-reduced-motion:reduce){.gastat-data-search__panel,.gastat-data-search__heading,.gastat-data-search__scopes{transition:none!important}}
-</style><style id="gastat-publication-details-style">
+</style>
+<style id="gastat-publication-details-style">
 .gastat-nds-card__meta{justify-content:flex-start;margin-bottom:11px}
 .gastat-nds-card__details{display:grid;gap:8px;margin:15px 0 17px;padding:12px 0;border-top:1px solid #e8efec;border-bottom:1px solid #e8efec}
 .gastat-nds-card__details>div{display:flex;align-items:center;justify-content:space-between;gap:12px}
@@ -2519,25 +2533,30 @@ body > section.hero .hero-content{
 .gastat-nds-file{display:inline-flex;align-items:center;justify-content:center;min-width:48px;padding:4px 8px;border-radius:7px;font-size:.7rem;font-weight:850;direction:ltr}
 .gastat-nds-file--pdf{background:#fff0ef;color:#b42318}.gastat-nds-file--excel{background:#eaf7ef;color:#147a43}
 .gastat-nds-card__footer{padding-top:0;border-top:0}
-</style><style id="gastat-publication-details-visible-fix">
+</style>
+<style id="gastat-publication-details-visible-fix">
 .gastat-nds-card__details{margin-top:14px;padding:11px 13px;border:1px solid #dce9e4;border-radius:11px;background:#f8fbfa}
 .gastat-nds-card__details>div+div{padding-top:8px;border-top:1px dashed #d7e4df}
 .gastat-nds-card__details dt{color:#526860;font-weight:750}
 .gastat-nds-card__details dd{display:flex;align-items:center}
-</style><style id="gastat-publication-dual-files-style">
+</style>
+<style id="gastat-publication-dual-files-style">
 .gastat-nds-file-options{display:inline-flex;align-items:center;gap:6px;direction:ltr}
 .gastat-nds-file-options .gastat-nds-file{min-width:46px}
-</style><style id="gastat-publication-statistical-icon-style">
+</style>
+<style id="gastat-publication-statistical-icon-style">
 .gastat-nds-stat-icon{position:relative;z-index:1;width:82px;height:82px;display:grid;place-items:center;border:1px solid rgba(8,122,87,.18);border-radius:24px;background:rgba(255,255,255,.82);box-shadow:0 12px 28px rgba(8,122,87,.12);transform:rotate(-2deg);transition:transform .25s ease,box-shadow .25s ease}
 .gastat-nds-card:hover .gastat-nds-stat-icon{transform:rotate(0) translateY(-3px);box-shadow:0 16px 32px rgba(8,122,87,.18)}
 .gastat-nds-card__media .gastat-nds-stat-icon svg{width:62px;height:62px;overflow:visible;stroke:#087a57;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
 .gastat-nds-stat-icon rect{fill:#b8d432;stroke:#087a57}.gastat-nds-stat-icon .stat-icon-grid{opacity:.45}.gastat-nds-stat-icon .stat-icon-trend,.gastat-nds-stat-icon .stat-icon-arrow{stroke:#075b43;stroke-width:3;fill:none}
 @media(max-width:640px){.gastat-nds-stat-icon{width:72px;height:72px;border-radius:21px}.gastat-nds-card__media .gastat-nds-stat-icon svg{width:54px;height:54px}}
-</style><style id="gastat-publication-category-style">
+</style>
+<style id="gastat-publication-category-style">
 .gastat-nds-card__meta{display:flex;align-items:center;flex-wrap:wrap;gap:7px}
 .gastat-nds-category{display:inline-flex;align-items:center;padding:5px 10px;border:1px solid #cfe0d9;border-radius:999px;background:#fff;color:#355a4d;font-size:.76rem;font-weight:750}
 .gastat-nds-category::before{content:"";width:6px;height:6px;margin-inline-end:6px;border-radius:50%;background:#b8d432}
-</style><style id="gastat-kpi-sparkline-style">
+</style>
+<style id="gastat-kpi-sparkline-style">
 .indicators-section .kpi{position:relative}
 .kpi-sparkline{width:100%;margin:11px 0 7px;padding:9px 10px 6px;border:1px solid rgba(27,131,84,.13);border-radius:11px;background:linear-gradient(180deg,rgba(240,249,245,.86),rgba(255,255,255,.6))}
 .kpi-sparkline__head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:4px;color:#60736c;font-size:.68rem;font-weight:650}
@@ -2552,15 +2571,18 @@ body > section.hero .hero-content{
 .kpi-sparkline__dot{fill:#fff;stroke:#087a57;stroke-width:2.4}.kpi-sparkline--down .kpi-sparkline__dot{stroke:#b54708}
 @media(max-width:640px){.kpi-sparkline{margin-top:9px}.kpi-sparkline svg{height:38px}}
 @media(prefers-reduced-motion:no-preference){.kpi-sparkline__line{stroke-dasharray:220;stroke-dashoffset:220;animation:kpiSparkDraw 1.1s ease forwards}.kpi-sparkline__dot{opacity:0;animation:kpiSparkDot .25s .9s ease forwards}@keyframes kpiSparkDraw{to{stroke-dashoffset:0}}@keyframes kpiSparkDot{to{opacity:1}}}
-</style><style id="gastat-kpi-sparkline-only-style">
+</style>
+<style id="gastat-kpi-sparkline-only-style">
 .kpi-sparkline{padding:8px 9px;margin-top:10px}
 .kpi-sparkline svg{height:44px}
-</style><style id="gastat-minimal-kpi-sparkline-style">
+</style>
+<style id="gastat-minimal-kpi-sparkline-style">
 .indicators-section .kpi .kpi-sparkline{width:84px;height:28px;margin:7px 0 5px;padding:0;border:0;border-radius:0;background:transparent}
 .indicators-section .kpi .kpi-sparkline svg{width:84px;height:28px}
 .indicators-section .kpi .kpi-sparkline__line{stroke-width:2.2}
 @media(max-width:640px){.indicators-section .kpi .kpi-sparkline,.indicators-section .kpi .kpi-sparkline svg{width:74px;height:25px}}
-</style><style id="gastat-publication-reference-card-style">
+</style>
+<style id="gastat-publication-reference-card-style">
 #latest-publications .gastat-nds-track{gap:22px;padding:7px 3px 16px}
 #latest-publications .gastat-nds-card{flex-basis:calc((100% - 44px)/3);border:1px solid #d0d8d5;border-radius:23px;background:#fff;box-shadow:0 4px 8px rgba(18,40,32,.08),0 16px 34px rgba(18,40,32,.05);overflow:hidden}
 #latest-publications .gastat-nds-card:hover,#latest-publications .gastat-nds-card:focus-within{transform:translateY(-5px);border-color:#adc8bd;box-shadow:0 8px 16px rgba(18,40,32,.1),0 22px 42px rgba(18,40,32,.08)}
@@ -2586,7 +2608,8 @@ body > section.hero .hero-content{
 #latest-publications .gastat-nds-card__link svg{color:#fff}
 @media(max-width:980px){#latest-publications .gastat-nds-card{flex-basis:calc((100% - 22px)/2)}}
 @media(max-width:640px){#latest-publications .gastat-nds-card{flex-basis:100%}#latest-publications .gastat-nds-card__media{padding:20px 20px 0}#latest-publications .gastat-nds-card__body{padding:20px}#latest-publications .gastat-nds-card h3{min-height:0}}
-</style><style id="gastat-publications-kpi-colors-style">
+</style>
+<style id="gastat-publications-kpi-colors-style">
 #latest-publications .gastat-nds-card{background:#F3F4F6;border-color:#EEF0F2}
 #latest-publications .gastat-nds-card:hover,#latest-publications .gastat-nds-card:focus-within{background:#fff;border-color:rgba(27,131,84,.30)}
 #latest-publications .gastat-nds-card__media{background:transparent;text-align:right}
@@ -2602,40 +2625,49 @@ body > section.hero .hero-content{
 #latest-publications .gastat-nds-category{border-color:#D9DADD;background:#fff;color:#4F505C}
 #latest-publications .gastat-nds-card__link{background:#1B8354}
 #latest-publications .gastat-nds-card__link:hover,#latest-publications .gastat-nds-card__link:focus-visible{background:#166A45}
-</style><style id="gastat-publications-white-shadow-style">
+</style>
+<style id="gastat-publications-white-shadow-style">
 #latest-publications .gastat-nds-card{background:#fff;border-color:#D8DADD;box-shadow:0 5px 10px rgba(39,40,51,.10),0 18px 36px rgba(39,40,51,.12)}
 #latest-publications .gastat-nds-card:hover,#latest-publications .gastat-nds-card:focus-within{background:#fff;border-color:#C8CACF;box-shadow:0 9px 18px rgba(39,40,51,.13),0 25px 48px rgba(39,40,51,.16)}
-</style><style id="gastat-publication-icon-match-kpi-style">
+</style>
+<style id="gastat-publication-icon-match-kpi-style">
 #latest-publications .gastat-nds-stat-icon{width:42px;height:42px;border-radius:50%;background:#1B8354;color:#fff}
 #latest-publications .gastat-nds-card__media .gastat-nds-stat-icon svg{width:26px;height:26px;stroke-width:2.2}
 #latest-publications .gastat-nds-stat-icon rect{fill:none;stroke:#fff}
 #latest-publications .gastat-nds-stat-icon .stat-icon-grid,#latest-publications .gastat-nds-stat-icon .stat-icon-trend,#latest-publications .gastat-nds-stat-icon .stat-icon-arrow{stroke:#fff}
-</style><style id="gastat-publication-icon-kpi-motion-style">
+</style>
+<style id="gastat-publication-icon-kpi-motion-style">
 #latest-publications .gastat-nds-stat-icon{background:#1B8354;color:#fff;transition:transform .35s var(--ease)}
 #latest-publications .gastat-nds-card:hover .gastat-nds-stat-icon,#latest-publications .gastat-nds-card:focus-within .gastat-nds-stat-icon{transform:rotate(-5deg) scale(1.08)}
 @media(prefers-reduced-motion:reduce){#latest-publications .gastat-nds-stat-icon{transition:none}#latest-publications .gastat-nds-card:hover .gastat-nds-stat-icon,#latest-publications .gastat-nds-card:focus-within .gastat-nds-stat-icon{transform:none}}
-</style><style id="gastat-publication-icon-force-kpi-color">
+</style>
+<style id="gastat-publication-icon-force-kpi-color">
 #latest-publications .gastat-nds-card .gastat-nds-card__media .gastat-nds-stat-icon.kpi-icon{background-color:#F3F4F6!important;color:#1B8354!important;border:0!important}
 #latest-publications .gastat-nds-card .gastat-nds-stat-icon.kpi-icon svg,#latest-publications .gastat-nds-card .gastat-nds-stat-icon.kpi-icon svg *{stroke:#1B8354!important}
 #latest-publications .gastat-nds-card .gastat-nds-stat-icon.kpi-icon svg rect{fill:none!important}
-</style><style id="gastat-publications-white-section-background">
+</style>
+<style id="gastat-publications-white-section-background">
 #latest-publications,#latest-publications.gastat-publications-section{background:#fff!important;background-image:none!important}
 #latest-publications::before,#latest-publications::after{display:none!important}
-</style><style id="gastat-kpi-report-links-style">
+</style>
+<style id="gastat-kpi-report-links-style">
 .indicators-section .kpi-report-link{width:100%;display:flex;align-items:center;justify-content:center;gap:7px;margin-top:12px;padding-top:11px;border-top:1px solid rgba(27,131,84,.14);color:#1B8354;text-decoration:none;font-size:.78rem;font-weight:800;transition:color .2s ease,gap .2s ease}
 .indicators-section .kpi-report-link:hover,.indicators-section .kpi-report-link:focus-visible{color:#166A45;gap:10px;outline:0}
 .indicators-section .kpi-report-link__doc{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .indicators-section .kpi-report-link__arrow{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:transform .2s ease}
 .indicators-section .kpi-report-link:hover .kpi-report-link__arrow{transform:translateX(-2px)}
 @media(prefers-reduced-motion:reduce){.indicators-section .kpi-report-link,.indicators-section .kpi-report-link__arrow{transition:none}}
-</style><style id="gastat-publications-no-shadow-style">
+</style>
+<style id="gastat-publications-no-shadow-style">
 #latest-publications .gastat-nds-card,#latest-publications .gastat-nds-card:hover,#latest-publications .gastat-nds-card:focus-within{box-shadow:none!important}
-</style><style id="gastat-publication-languages-style">
+</style>
+<style id="gastat-publication-languages-style">
 #latest-publications .gastat-nds-card__languages{align-items:center}
 #latest-publications .gastat-nds-language-options{display:inline-flex;align-items:center;gap:6px}
 #latest-publications .gastat-nds-language-options>span{display:inline-flex;align-items:center;justify-content:center;min-height:26px;padding:4px 9px;border:1px solid #D9DADD;border-radius:7px;background:#fff;color:#4F505C;font-size:.7rem;font-weight:750}
 #latest-publications .gastat-nds-card__details .gastat-nds-card__languages{padding-top:8px;border-top:1px dashed #E1E3E6}
-</style><style id="gastat-publication-organized-layout-style">
+</style>
+<style id="gastat-publication-organized-layout-style">
 #latest-publications .gastat-nds-card__media{padding:22px 22px 0}
 #latest-publications .gastat-nds-card__body{display:flex;flex:1;flex-direction:column;padding:17px 22px 22px}
 #latest-publications .gastat-nds-card__meta{display:flex;align-items:center;flex-wrap:wrap;gap:7px;min-height:34px;margin:0 0 15px}
@@ -2649,7 +2681,8 @@ body > section.hero .hero-content{
 #latest-publications .gastat-nds-card__footer{margin-top:auto}
 #latest-publications .gastat-nds-card__link{width:100%;box-sizing:border-box}
 @media(max-width:640px){#latest-publications .gastat-nds-card__media{padding:19px 19px 0}#latest-publications .gastat-nds-card__body{padding:15px 19px 19px}#latest-publications .gastat-nds-card h3{min-height:0}#latest-publications .gastat-nds-card__details>div,#latest-publications .gastat-nds-card__details .gastat-nds-card__languages{grid-template-columns:76px minmax(0,1fr)}}
-</style><style id="gastat-publication-refined-layout-style">
+</style>
+<style id="gastat-publication-refined-layout-style">
 #latest-publications .gastat-nds-card{position:relative;border:1px solid #D8DADD;border-radius:20px;background:#fff}
 #latest-publications .gastat-nds-card::before{content:"";position:absolute;inset-block:22px;inset-inline-start:0;width:3px;border-radius:3px 0 0 3px;background:#1B8354;opacity:0;transition:opacity .2s ease}
 #latest-publications .gastat-nds-card:hover::before,#latest-publications .gastat-nds-card:focus-within::before{opacity:1}
@@ -2667,19 +2700,22 @@ body > section.hero .hero-content{
 #latest-publications .gastat-nds-card__link{min-height:44px;border-radius:9px;font-size:.84rem}
 #latest-publications .gastat-nds-control{box-shadow:none}
 @media(max-width:640px){#latest-publications .gastat-nds-card__media{padding:18px 18px 0}#latest-publications .gastat-nds-card__body{padding:15px 18px 18px}#latest-publications .gastat-nds-card h3{min-height:0}#latest-publications .gastat-nds-card::before{inset-block:18px}}
-</style><style id="gastat-smart-search-badge-style">
+</style>
+<style id="gastat-smart-search-badge-style">
 .gastat-data-search__search-row{display:flex;align-items:center;gap:11px}
 .gastat-data-search__search-row .gastat-data-search__box{flex:1;min-width:0}
 .gastat-data-search__smart-badge{min-height:52px;display:inline-flex;align-items:center;justify-content:center;gap:7px;flex:0 0 112px;padding:0 14px;border:1px solid rgba(27,131,84,.24);border-radius:14px;background:#EFF8F3;color:#1B8354;font-size:.82rem;font-weight:850;white-space:nowrap}
 .gastat-data-search__smart-badge svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
 .gastat-data-search__panel.is-expanded .gastat-data-search__smart-badge{min-height:58px}
 @media(max-width:640px){.gastat-data-search__search-row{align-items:stretch;gap:8px}.gastat-data-search__smart-badge{flex-basis:94px;min-height:52px;padding:0 9px;font-size:.75rem;border-radius:13px}.gastat-data-search__smart-badge svg{width:17px;height:17px}.gastat-data-search__panel.is-expanded .gastat-data-search__smart-badge{min-height:54px}}
-</style><style id="gastat-calendar-no-hover-style">
+</style>
+<style id="gastat-calendar-no-hover-style">
 #releases .hover-card:hover{transform:none!important;box-shadow:none!important}
 #releases .hover-card:not(.dga-release-hover-open):hover .hover-card-body,#releases .hover-card:not(.dga-release-hover-open):focus-within .hover-card-body{display:block!important;height:0!important;max-height:0!important;margin-top:0!important;padding-top:0!important;padding-bottom:0!important;opacity:0!important;visibility:hidden!important;overflow:hidden!important;transform:translateY(-8px)!important}
 #releases .hover-card-toggle{display:grid!important;place-items:center}
 #releases .hover-card.dga-release-hover-open{transform:none!important}
-</style><style id="gastat-full-calendar-visible-style">
+</style>
+<style id="gastat-full-calendar-visible-style">
 #releases .dga-release-static-preview,#releases .hover-card-toggle,#releases .dga-release-content-hint{display:none!important}
 #releases .hover-card .hover-card-body,#releases .hover-card:not(.dga-release-hover-open):hover .hover-card-body,#releases .hover-card:not(.dga-release-hover-open):focus-within .hover-card-body{display:block!important;width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;margin-top:14px!important;padding-top:0!important;padding-bottom:0!important;opacity:1!important;visibility:visible!important;overflow:visible!important;transform:none!important}
 #releases .hover-card{height:auto!important;min-height:0!important;transform:none!important;box-shadow:none!important;cursor:default!important}
@@ -4709,7 +4745,10 @@ input[type="search"],input[type="text"],.search-input,[class*="search-input"]{wi
 html{scroll-behavior:auto!important}
 *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
-</style><style class="goh__space-efficient-statistics">@media (min-width:1181px){}</style><style id="statistics-page-navigation-link"></style>
+</style>
+<style class="goh__space-efficient-statistics">@media (min-width:1181px){}</style>
+<style id="statistics-page-navigation-link">
+</style>
 <style id="goh-statistics-four-sections-style">
 #goh-official-nav .goh__dropdown--statistics-sections{width:min(360px,calc(100vw - 32px));padding:20px}
 #goh-official-nav .goh__statistics-sections-list{display:grid;gap:8px}
@@ -4994,44 +5033,1020 @@ html{scroll-behavior:auto!important}
 #goh-official-nav .goh__desktop .goh__item>.goh__dropdown .goh__columns{grid-template-columns:1fr!important;gap:10px!important}
 }
 </style>
+<style id="footer-identity-fix">
+body footer{background:#104631!important;border-top:0!important}
+body footer:before{content:none!important;display:none!important}
+.goh__logo{border-inline-start:0!important;border-left:0!important;border-right:0!important;padding-inline-start:0!important}
+.goh__logo:before,.goh__logo:after{content:none!important;display:none!important}
+</style>
 </head>
-<style id="advisory-pages-style">html,body{min-height:100%}.demo-notice{direction:rtl;display:flex;justify-content:center;align-items:center;gap:10px;min-height:44px;padding:8px 18px;background:#fff4d6;border-bottom:1px solid #ead89f;color:#694f09;font-size:14px;text-align:center}.demo-notice strong{font-weight:800}.demo-notice__owner{color:#087b59;font-weight:850;font-size:15px}.demo-notice__dot{width:8px;height:8px;border-radius:50%;background:#d59300;box-shadow:0 0 0 4px rgba(213,147,0,.14)}.advisory-main{direction:rtl;color:#12303f;background:#fff}body footer{background:#104631!important;border-top:0!important}body footer:before{content:none!important;display:none!important}.goh__logo{border-inline-start:0!important;border-left:0!important;border-right:0!important;padding-inline-start:0!important}.goh__logo:before,.goh__logo:after{content:none!important;display:none!important}.page-shell{width:min(1240px,calc(100% - 48px));margin-inline:auto}.page-breadcrumb{direction:rtl;background:#f4fbf8;border-top:1px solid #e4ebe8}.page-breadcrumb__container{width:min(1240px,calc(100% - 48px));margin:0 auto;padding:0 0 52px}.page-breadcrumb__inner{min-height:92px;display:flex;align-items:center;gap:12px;color:#8b9aa3;font-size:16px}.page-breadcrumb a{color:#172b3a;text-decoration:none}.page-breadcrumb a:hover{text-decoration:underline}.page-breadcrumb__separator{color:#9eafb5;font-size:28px;font-weight:300;line-height:1}.page-breadcrumb [aria-current=page]{color:#7c8d96}.eyebrow,.section-kicker{display:block;color:#16865f;font-size:14px;font-weight:700;letter-spacing:.02em;margin-bottom:12px}.page-breadcrumb__heading h1{margin:0 0 18px;color:#102f40;font-size:clamp(34px,4vw,54px);font-weight:750;line-height:1.3}.page-breadcrumb__heading p{max-width:850px;margin:0;color:#415d68;font-size:19px;line-height:1.9}.intro-section,.entities-section,.detail-section,.detail-intro{padding:88px 0}.intro-grid,.two-column{display:grid;grid-template-columns:.85fr 1.15fr;gap:80px;align-items:start}.intro-grid h2,.section-head h2,.governance-copy h2,.publication-box h2,.detail-main h2{margin:0;color:#102f40;font-size:clamp(28px,3vw,40px);line-height:1.45}.intro-grid p,.section-head>p,.detail-main p{margin:0;color:#526b75;font-size:17px;line-height:2}.principle-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}.principle-row span{padding:8px 16px;border:1px solid #cae5dc;border-radius:999px;background:#f7fcfa;color:#176b52;font-weight:650}.entities-section,.detail-section--soft{background:#f7f9fa}.section-head{display:flex;justify-content:space-between;gap:40px;align-items:end;margin-bottom:36px}.section-head>p{max-width:470px}.entity-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.entity-card{position:relative;display:flex;flex-direction:column;overflow:hidden;padding:34px;border:1px solid #dfe8e6;border-radius:20px;background:#fff;box-shadow:0 12px 36px rgba(16,47,64,.06);transition:.25s}.entity-card:hover{transform:translateY(-5px);border-color:#bcd8cf;box-shadow:0 18px 46px rgba(16,47,64,.11)}.entity-card:before{content:'';position:absolute;inset:0 0 auto;height:5px;background:#1b8b65}.entity-card--blue:before{background:#1d637b}.entity-card__top{display:flex;justify-content:space-between;align-items:center}.entity-icon,.detail-mark{display:grid;place-items:center;width:64px;height:64px;border-radius:16px;background:#e9f7f2;color:#17845f}.entity-card--blue .entity-icon{background:#edf5f8;color:#1d637b}.entity-icon svg,.detail-mark svg,.mini-card svg{width:30px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.entity-number{font-size:13px;color:#91a2aa;font-weight:700}.entity-card h3{margin:28px 0 12px;font-size:26px;color:#102f40}.entity-card p{color:#526b75;line-height:1.9}.entity-card ul{margin:24px 0 28px;padding:0;list-style:none;display:grid;gap:10px}.entity-card li:before{content:'✓';color:#16865f;margin-left:9px;font-weight:800}.card-link,.light-link,.back-link{display:inline-flex;gap:10px;align-items:center;color:#137b59;font-weight:750;text-decoration:none}.card-link{box-sizing:border-box;width:100%;min-height:56px;margin-top:auto;justify-content:space-between;gap:14px;padding:9px 12px 9px 18px;border:1px solid #c9e4db;border-radius:12px;background:#edf8f4;color:#116c4e;box-shadow:none;transition:transform .2s,box-shadow .2s,background .2s,border-color .2s}.entity-card--blue .card-link{border-color:#cbdfe6;background:#eef6f8;color:#18566b;box-shadow:none}.card-link span:last-child{display:grid;place-items:center;flex:0 0 38px;height:38px;border-radius:9px;background:#147b5a;color:#fff;font-size:20px;line-height:1;transition:transform .2s,background .2s}.entity-card--blue .card-link span:last-child{background:#1d637b}.card-link:hover{transform:translateY(-2px);border-color:#83c5af;background:#e4f4ee;box-shadow:0 8px 20px rgba(20,123,90,.12)}.entity-card--blue .card-link:hover{border-color:#8cb9c8;background:#e6f1f5}.card-link:hover span:last-child{transform:translateX(-4px);background:#0d684a}.entity-card--blue .card-link:hover span:last-child{background:#154f64}.card-link:focus-visible{outline:3px solid #79d3b5;outline-offset:3px}.card-link:active{transform:translateY(0);box-shadow:none}.entity-grid{gap:20px}.entity-card{display:grid!important;grid-template-columns:72px minmax(0,1fr);grid-template-areas:'icon title' 'action action';align-items:center;column-gap:22px;row-gap:26px;min-height:0!important;height:auto!important;padding:30px!important}.entity-card__top{grid-area:icon;display:block}.entity-icon{width:68px;height:68px;border-radius:18px}.entity-card h3{grid-area:title;margin:0!important;font-size:clamp(23px,2vw,29px);line-height:1.4}.entity-card .card-link{grid-area:action;margin:0;min-height:58px}.entity-card:hover .entity-icon{transform:scale(1.04)}.entity-icon{transition:transform .22s}.governance-section,.detail-section--dark{padding:88px 0;background:#103b43;color:#fff}.governance-grid,.info-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:70px;align-items:center}.section-kicker--light{color:#77d8b7}.governance-copy h2,.detail-section--dark h2{color:#fff}.governance-copy p,.detail-section--dark p{color:#d3e1e3;line-height:2}.light-link{color:#8ce0c2;margin-top:22px}.governance-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}.mini-card{padding:26px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:16px}.mini-card>span{color:#83ddbd}.mini-card h3{margin:18px 0 8px}.mini-card p{font-size:14px}.publication-section{padding:72px 0}.publication-box{display:flex;justify-content:space-between;gap:50px;align-items:center;padding:36px 40px;border:1px solid #dce9e5;border-radius:18px;background:#fbfdfc}.publication-box>div:first-child{max-width:700px}.update-badge{min-width:240px;padding:20px;border-radius:12px;background:#eef8f4}.update-badge span,.update-badge strong{display:block}.update-badge span{font-size:13px;color:#688079;margin-bottom:6px}.update-badge strong{color:#176b52}.detail-intro__grid{display:grid;grid-template-columns:90px 1fr;gap:28px;align-items:start}.detail-mark{width:78px;height:78px}.detail-mark svg{width:38px}.detail-intro p{max-width:920px;font-size:19px}.goal-list{list-style:none;margin:0;padding:0;display:grid;gap:12px}.goal-list li{display:flex;align-items:center;gap:18px;padding:18px 20px;background:#fff;border:1px solid #e0e8e6;border-radius:12px}.goal-list span{color:#16865f;font-size:13px;font-weight:800}.goal-list p{font-size:16px}.area-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.area-item{display:flex;align-items:center;gap:12px;padding:22px;border:1px solid #dfe8e6;border-radius:12px;background:#fff}.area-dot{width:9px;height:9px;border-radius:50%;background:#1a8a64;box-shadow:0 0 0 5px #e8f6f1}.status-panel{border:1px solid rgba(255,255,255,.16);border-radius:16px;overflow:hidden}.status-panel>div{display:flex;justify-content:space-between;gap:20px;padding:22px 24px;background:rgba(255,255,255,.06)}.status-panel>div+div{border-top:1px solid rgba(255,255,255,.12)}.status-panel span{color:#bdd0d3}.status-panel strong{color:#fff;text-align:left}.back-section{padding:42px 0 70px}.back-link{color:#365764}.facts-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.16);border-radius:18px;overflow:hidden}.facts-grid--3{grid-template-columns:repeat(3,1fr)}.facts-grid>div{padding:30px 24px;background:#103b43}.facts-grid span,.facts-grid strong,.facts-grid small{display:block}.facts-grid span{color:#a9c2c6;font-size:14px}.facts-grid strong{margin:10px 0 6px;color:#fff;font-size:28px}.facts-grid small{color:#cee0e2;line-height:1.6}.facts-section{position:relative;padding:46px 0;background:linear-gradient(125deg,#0d3f47 0%,#10555a 55%,#12604f 100%);overflow:hidden}.facts-section:before{content:'';position:absolute;width:320px;height:320px;left:-100px;top:-210px;border-radius:50%;background:rgba(103,219,178,.08)}.facts-section .facts-grid{position:relative;gap:14px;background:transparent;border:0;border-radius:0;overflow:visible}.facts-section .facts-grid>div{position:relative;min-height:164px;padding:25px 24px;border:1px solid rgba(255,255,255,.17);border-radius:16px;background:rgba(255,255,255,.075);box-shadow:0 12px 28px rgba(0,0,0,.08);transition:transform .2s ease,background .2s ease}.facts-section .facts-grid>div:hover{transform:translateY(-4px);background:rgba(255,255,255,.11)}.facts-section .facts-grid>div:after{content:'';position:absolute;right:24px;bottom:18px;width:34px;height:3px;border-radius:99px;background:#6dd6b1}.facts-section .facts-grid span{color:#a9cfca;font-size:13px;font-weight:650}.facts-section .facts-grid strong{margin:12px 0 8px;color:#fff;font-size:clamp(25px,2.3vw,34px);font-weight:800}.facts-section .facts-grid small{max-width:210px;color:#d8e9e7;font-size:13px;line-height:1.7}.members-section{background:linear-gradient(180deg,#fff 0%,#f7faf9 100%)}.member-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.member-card{position:relative;display:flex;align-items:stretch;gap:22px;min-height:138px;padding:14px;border:1px solid #dbe7e3;border-radius:18px;background:#fff;box-shadow:0 8px 24px rgba(16,47,64,.055);overflow:hidden;transition:transform .22s,border-color .22s,box-shadow .22s}.member-card:after{content:'';position:absolute;right:0;top:18px;bottom:18px;width:3px;border-radius:3px;background:#16865f;opacity:.75}.member-card:hover{transform:translateY(-3px);border-color:#b9d7cd;box-shadow:0 14px 32px rgba(16,47,64,.1)}.member-photo{position:relative;flex:0 0 112px;width:112px;min-height:110px;overflow:hidden;border-radius:14px;background:#eaf2ef;box-shadow:0 0 0 1px #dce9e4}.member-photo:after{content:'';position:absolute;inset:auto 0 0;height:28%;background:linear-gradient(transparent,rgba(9,45,48,.12));pointer-events:none}.member-photo img{position:absolute;max-width:none!important;width:400%!important;height:200%!important;left:calc(var(--member-col) * -100%);top:calc(var(--member-row) * -100%);object-fit:fill}.member-card__content{display:flex;flex-direction:column;justify-content:center;min-width:0;padding:8px 0}.member-role{align-self:flex-start;padding:5px 10px;border-radius:999px;background:#eaf7f2;color:#137454;font-size:11px;font-weight:800}.member-card h3{margin:10px 0 5px;font-size:19px;color:#12303f}.member-card p{margin:0;color:#647b84;font-size:14px;line-height:1.65}.member-example-note{margin:20px 0 0;color:#73878f;font-size:13px;text-align:left}.workgroup-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.workgroup-card{padding:28px;border:1px solid #dce7e4;border-radius:16px;background:#fff}.workgroup-card>span{color:#16865f;font-size:13px;font-weight:800}.workgroup-card h3{margin:22px 0 10px;color:#12303f;font-size:20px}.workgroup-card p{font-size:15px}.meeting-list{border-top:1px solid #dce5e3}.meeting-item{display:grid;grid-template-columns:150px 1fr auto;gap:28px;align-items:center;padding:24px 0;border-bottom:1px solid #dce5e3}.meeting-item time{color:#16865f;font-weight:700}.meeting-item h3{margin:0 0 5px;color:#12303f;font-size:18px}.meeting-item p{font-size:15px}.meeting-item>a{color:#176b52;text-decoration:none;font-weight:700;white-space:nowrap}.documents-section{background:#f7f9fa}.document-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.document-card{display:flex;align-items:center;gap:15px;padding:22px;border:1px solid #dce6e3;border-radius:14px;background:#fff;color:inherit;text-decoration:none;transition:.2s}.document-card:hover{border-color:#16865f;transform:translateY(-3px)}.doc-type{display:grid;place-items:center;width:44px;height:48px;border-radius:8px;background:#e9f6f1;color:#16865f;font-size:11px;font-weight:800}.document-card h3{margin:0 0 5px;color:#12303f;font-size:16px}.document-card p{font-size:13px;line-height:1.5}.doc-arrow{margin-right:auto;color:#16865f;font-size:22px}.contact-strip{padding:64px 0;background:#176c5a;color:#fff}.contact-strip__inner{display:flex;justify-content:space-between;align-items:center;gap:40px}.contact-strip h2{margin:0 0 8px;color:#fff;font-size:30px}.contact-strip p{margin:0;color:#d7ece6}.contact-strip a{display:inline-flex;gap:12px;align-items:center;padding:14px 24px;border-radius:10px;background:#fff;color:#176c5a;text-decoration:none;font-weight:800;white-space:nowrap}.member-grid--5 .member-card:last-child{grid-column:1/-1;width:calc(50% - 9px);box-sizing:border-box;justify-self:center}.governance-reference{padding:78px 0;background:#fff}.governance-reference__grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;align-items:start}.governance-reference h2{margin:0 0 15px;color:#102f40;font-size:36px}.governance-reference p{color:#526b75;line-height:2}.compliance-list{display:grid;gap:12px}.compliance-list>div{padding:20px 22px;border-right:4px solid #16865f;background:#f4faf7;border-radius:10px}.compliance-list strong{color:#12303f}.compliance-list p{margin:5px 0 0;font-size:14px;line-height:1.7}.impact-section{padding:78px 0;background:#113d45;color:#fff}.impact-section .section-head h2{color:#fff}.impact-section .section-head>p{color:#cfdee0}.impact-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.impact-grid>div{padding:28px;border:1px solid rgba(255,255,255,.14);border-radius:14px;background:rgba(255,255,255,.06)}.impact-grid strong,.impact-grid span{display:block}.impact-grid strong{color:#7de0bd;font-size:40px}.impact-grid span{margin-top:7px;color:#edf5f5}.year-filter{display:flex;gap:7px}.year-filter button{padding:8px 14px;border:1px solid #d3e1dd;border-radius:7px;background:#fff;color:#55706a;cursor:pointer}.year-filter button.is-active{background:#176c5a;color:#fff;border-color:#176c5a}.participation-section{padding:0 0 76px}.participation-box{display:flex;align-items:center;justify-content:space-between;gap:40px;padding:38px 42px;border-radius:18px;background:#176c5a;color:#fff}.participation-box h2{margin:0 0 8px;color:#fff;font-size:30px}.participation-box p{margin:0;color:#d8ebe6}.participation-box a{padding:13px 22px;border-radius:9px;background:#fff;color:#176c5a;text-decoration:none;font-weight:800;white-space:nowrap}@media(max-width:900px){.intro-grid,.two-column,.governance-grid,.info-grid,.governance-reference__grid{grid-template-columns:1fr;gap:36px}.entity-grid{grid-template-columns:1fr}.area-grid{grid-template-columns:repeat(2,1fr)}.section-head,.publication-box{align-items:start;flex-direction:column}.governance-cards{grid-template-columns:1fr 1fr}.facts-grid,.impact-grid{grid-template-columns:repeat(2,1fr)}.document-grid{grid-template-columns:1fr}.meeting-item{grid-template-columns:130px 1fr}.meeting-item>a{grid-column:2}}@media(max-width:767px){.page-shell,.page-breadcrumb__container{width:calc(100% - 32px)}.page-breadcrumb__container{padding-bottom:34px}.page-breadcrumb__inner{min-height:72px;gap:8px;font-size:13px;overflow-x:auto;white-space:nowrap}.page-breadcrumb__separator{font-size:22px}.page-breadcrumb__heading p{font-size:16px}.intro-section,.entities-section,.detail-section,.detail-intro,.governance-section,.governance-reference,.impact-section{padding:58px 0}.section-head{display:block}.section-head>p{margin-top:14px}.entity-card{padding:26px}.governance-cards,.area-grid,.facts-grid,.member-grid,.workgroup-grid,.impact-grid{grid-template-columns:1fr}.publication-section{padding:48px 0}.publication-box{padding:28px 24px}.update-badge{min-width:0;width:100%}.detail-intro__grid{grid-template-columns:1fr}.status-panel>div{flex-direction:column}.status-panel strong{text-align:right}.meeting-item{grid-template-columns:1fr;gap:8px}.meeting-item>a{grid-column:1}.contact-strip__inner,.participation-box{align-items:start;flex-direction:column}.participation-box{padding:30px 24px}.year-filter{margin-top:16px}}@media(max-width:767px){.member-grid--5 .member-card:last-child{width:100%;grid-column:auto}}@media print{.goh,.page-tools,footer,.contact-strip,.participation-section,.back-section{display:none!important}.page-breadcrumb,.detail-section,.governance-reference,.impact-section{break-inside:avoid}.advisory-main{color:#000}.detail-section--dark,.impact-section{background:#fff!important;color:#000!important}.detail-section--dark *,.impact-section *{color:#000!important}.page-breadcrumb__container,.page-shell{width:100%}}</style>
+<style id="advisory-pages-style">html,body{min-height:100%}.demo-notice{direction:rtl;display:flex;justify-content:center;align-items:center;gap:10px;min-height:44px;padding:8px 18px;background:#fff4d6;border-bottom:1px solid #ead89f;color:#694f09;font-size:14px;text-align:center}.demo-notice strong{font-weight:800}.demo-notice__owner{color:#087b59;font-weight:850;font-size:15px}.demo-notice__dot{width:8px;height:8px;border-radius:50%;background:#d59300;box-shadow:0 0 0 4px rgba(213,147,0,.14)}.advisory-main{direction:rtl;color:#12303f;background:#fff}.page-shell{width:min(1240px,calc(100% - 48px));margin-inline:auto}.page-breadcrumb{direction:rtl;background:#f4fbf8;border-top:1px solid #e4ebe8}.page-breadcrumb__container{width:min(1240px,calc(100% - 48px));margin:0 auto;padding:0 0 52px}.page-breadcrumb__inner{min-height:92px;display:flex;align-items:center;gap:12px;color:#8b9aa3;font-size:16px}.page-breadcrumb a{color:#172b3a;text-decoration:none}.page-breadcrumb a:hover{text-decoration:underline}.page-breadcrumb__separator{color:#9eafb5;font-size:28px;font-weight:300;line-height:1}.page-breadcrumb [aria-current=page]{color:#7c8d96}.eyebrow,.section-kicker{display:block;color:#16865f;font-size:14px;font-weight:700;letter-spacing:.02em;margin-bottom:12px}.page-breadcrumb__heading h1{margin:0 0 18px;color:#102f40;font-size:clamp(34px,4vw,54px);font-weight:750;line-height:1.3}.page-breadcrumb__heading p{max-width:850px;margin:0;color:#415d68;font-size:19px;line-height:1.9}.intro-section,.entities-section,.detail-section,.detail-intro{padding:88px 0}.intro-grid,.two-column{display:grid;grid-template-columns:.85fr 1.15fr;gap:80px;align-items:start}.intro-grid h2,.section-head h2,.governance-copy h2,.publication-box h2,.detail-main h2{margin:0;color:#102f40;font-size:clamp(28px,3vw,40px);line-height:1.45}.intro-grid p,.section-head>p,.detail-main p{margin:0;color:#526b75;font-size:17px;line-height:2}.principle-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}.principle-row span{padding:8px 16px;border:1px solid #cae5dc;border-radius:999px;background:#f7fcfa;color:#176b52;font-weight:650}.entities-section,.detail-section--soft{background:#f7f9fa}.section-head{display:flex;justify-content:space-between;gap:40px;align-items:end;margin-bottom:36px}.section-head>p{max-width:470px}.entity-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.entity-card{position:relative;display:flex;flex-direction:column;overflow:hidden;padding:34px;border:1px solid #dfe8e6;border-radius:20px;background:#fff;box-shadow:0 12px 36px rgba(16,47,64,.06);transition:.25s}.entity-card:hover{transform:translateY(-5px);border-color:#bcd8cf;box-shadow:0 18px 46px rgba(16,47,64,.11)}.entity-card:before{content:'';position:absolute;inset:0 0 auto;height:5px;background:#1b8b65}.entity-card--blue:before{background:#1d637b}.entity-card__top{display:flex;justify-content:space-between;align-items:center}.entity-icon,.detail-mark{display:grid;place-items:center;width:64px;height:64px;border-radius:16px;background:#e9f7f2;color:#17845f}.entity-card--blue .entity-icon{background:#edf5f8;color:#1d637b}.entity-icon svg,.detail-mark svg,.mini-card svg{width:30px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.entity-number{font-size:13px;color:#91a2aa;font-weight:700}.entity-card h3{margin:28px 0 12px;font-size:26px;color:#102f40}.entity-card p{color:#526b75;line-height:1.9}.entity-card ul{margin:24px 0 28px;padding:0;list-style:none;display:grid;gap:10px}.entity-card li:before{content:'✓';color:#16865f;margin-left:9px;font-weight:800}.card-link,.light-link,.back-link{display:inline-flex;gap:10px;align-items:center;color:#137b59;font-weight:750;text-decoration:none}.card-link{box-sizing:border-box;width:100%;min-height:56px;margin-top:auto;justify-content:space-between;gap:14px;padding:9px 12px 9px 18px;border:1px solid #c9e4db;border-radius:12px;background:#edf8f4;color:#116c4e;box-shadow:none;transition:transform .2s,box-shadow .2s,background .2s,border-color .2s}.entity-card--blue .card-link{border-color:#cbdfe6;background:#eef6f8;color:#18566b;box-shadow:none}.card-link span:last-child{display:grid;place-items:center;flex:0 0 38px;height:38px;border-radius:9px;background:#147b5a;color:#fff;font-size:20px;line-height:1;transition:transform .2s,background .2s}.entity-card--blue .card-link span:last-child{background:#1d637b}.card-link:hover{transform:translateY(-2px);border-color:#83c5af;background:#e4f4ee;box-shadow:0 8px 20px rgba(20,123,90,.12)}.entity-card--blue .card-link:hover{border-color:#8cb9c8;background:#e6f1f5}.card-link:hover span:last-child{transform:translateX(-4px);background:#0d684a}.entity-card--blue .card-link:hover span:last-child{background:#154f64}.card-link:focus-visible{outline:3px solid #79d3b5;outline-offset:3px}.card-link:active{transform:translateY(0);box-shadow:none}.governance-section,.detail-section--dark{padding:88px 0;background:#103b43;color:#fff}.governance-grid,.info-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:70px;align-items:center}.section-kicker--light{color:#77d8b7}.governance-copy h2,.detail-section--dark h2{color:#fff}.governance-copy p,.detail-section--dark p{color:#d3e1e3;line-height:2}.light-link{color:#8ce0c2;margin-top:22px}.governance-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}.mini-card{padding:26px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:16px}.mini-card>span{color:#83ddbd}.mini-card h3{margin:18px 0 8px}.mini-card p{font-size:14px}.publication-section{padding:72px 0}.publication-box{display:flex;justify-content:space-between;gap:50px;align-items:center;padding:36px 40px;border:1px solid #dce9e5;border-radius:18px;background:#fbfdfc}.publication-box>div:first-child{max-width:700px}.update-badge{min-width:240px;padding:20px;border-radius:12px;background:#eef8f4}.update-badge span,.update-badge strong{display:block}.update-badge span{font-size:13px;color:#688079;margin-bottom:6px}.update-badge strong{color:#176b52}.detail-intro__grid{display:grid;grid-template-columns:90px 1fr;gap:28px;align-items:start}.detail-mark{width:78px;height:78px}.detail-mark svg{width:38px}.detail-intro p{max-width:920px;font-size:19px}.goal-list{list-style:none;margin:0;padding:0;display:grid;gap:12px}.goal-list li{display:flex;align-items:center;gap:18px;padding:18px 20px;background:#fff;border:1px solid #e0e8e6;border-radius:12px}.goal-list span{color:#16865f;font-size:13px;font-weight:800}.goal-list p{font-size:16px}.area-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.area-item{display:flex;align-items:center;gap:12px;padding:22px;border:1px solid #dfe8e6;border-radius:12px;background:#fff}.area-dot{width:9px;height:9px;border-radius:50%;background:#1a8a64;box-shadow:0 0 0 5px #e8f6f1}.status-panel{border:1px solid rgba(255,255,255,.16);border-radius:16px;overflow:hidden}.status-panel>div{display:flex;justify-content:space-between;gap:20px;padding:22px 24px;background:rgba(255,255,255,.06)}.status-panel>div+div{border-top:1px solid rgba(255,255,255,.12)}.status-panel span{color:#bdd0d3}.status-panel strong{color:#fff;text-align:left}.back-section{padding:42px 0 70px}.back-link{color:#365764}.facts-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.16);border-radius:18px;overflow:hidden}.facts-grid>div{padding:30px 24px;background:#103b43}.facts-grid span,.facts-grid strong,.facts-grid small{display:block}.facts-grid span{color:#a9c2c6;font-size:14px}.facts-grid strong{margin:10px 0 6px;color:#fff;font-size:28px}.facts-grid small{color:#cee0e2;line-height:1.6}.facts-section{position:relative;padding:46px 0;background:linear-gradient(125deg,#0d3f47 0%,#10555a 55%,#12604f 100%);overflow:hidden}.facts-section:before{content:'';position:absolute;width:320px;height:320px;left:-100px;top:-210px;border-radius:50%;background:rgba(103,219,178,.08)}.facts-section .facts-grid{position:relative;gap:14px;background:transparent;border:0;border-radius:0;overflow:visible}.facts-section .facts-grid>div{position:relative;min-height:164px;padding:25px 24px;border:1px solid rgba(255,255,255,.17);border-radius:16px;background:rgba(255,255,255,.075);box-shadow:0 12px 28px rgba(0,0,0,.08);transition:transform .2s ease,background .2s ease}.facts-section .facts-grid>div:hover{transform:translateY(-4px);background:rgba(255,255,255,.11)}.facts-section .facts-grid>div:after{content:'';position:absolute;right:24px;bottom:18px;width:34px;height:3px;border-radius:99px;background:#6dd6b1}.facts-section .facts-grid span{color:#a9cfca;font-size:13px;font-weight:650}.facts-section .facts-grid strong{margin:12px 0 8px;color:#fff;font-size:clamp(25px,2.3vw,34px);font-weight:800}.facts-section .facts-grid small{max-width:210px;color:#d8e9e7;font-size:13px;line-height:1.7}.members-section{background:linear-gradient(180deg,#fff 0%,#f7faf9 100%)}.member-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.member-card{position:relative;display:flex;align-items:stretch;gap:22px;min-height:138px;padding:14px;border:1px solid #dbe7e3;border-radius:18px;background:#fff;box-shadow:0 8px 24px rgba(16,47,64,.055);overflow:hidden;transition:transform .22s,border-color .22s,box-shadow .22s}.member-card:after{content:'';position:absolute;right:0;top:18px;bottom:18px;width:3px;border-radius:3px;background:#16865f;opacity:.75}.member-card:hover{transform:translateY(-3px);border-color:#b9d7cd;box-shadow:0 14px 32px rgba(16,47,64,.1)}.member-photo{position:relative;flex:0 0 112px;width:112px;min-height:110px;overflow:hidden;border-radius:14px;background:#eaf2ef;box-shadow:0 0 0 1px #dce9e4}.member-photo:after{content:'';position:absolute;inset:auto 0 0;height:28%;background:linear-gradient(transparent,rgba(9,45,48,.12));pointer-events:none}.member-photo img{position:absolute;max-width:none!important;width:400%!important;height:200%!important;left:calc(var(--member-col) * -100%);top:calc(var(--member-row) * -100%);object-fit:fill}.member-card__content{display:flex;flex-direction:column;justify-content:center;min-width:0;padding:8px 0}.member-role{align-self:flex-start;padding:5px 10px;border-radius:999px;background:#eaf7f2;color:#137454;font-size:11px;font-weight:800}.member-card h3{margin:10px 0 5px;font-size:19px;color:#12303f}.member-card p{margin:0;color:#647b84;font-size:14px;line-height:1.65}.member-example-note{margin:20px 0 0;color:#73878f;font-size:13px;text-align:left}.workgroup-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.workgroup-card{padding:28px;border:1px solid #dce7e4;border-radius:16px;background:#fff}.workgroup-card>span{color:#16865f;font-size:13px;font-weight:800}.workgroup-card h3{margin:22px 0 10px;color:#12303f;font-size:20px}.workgroup-card p{font-size:15px}.meeting-list{border-top:1px solid #dce5e3}.meeting-item{display:grid;grid-template-columns:150px 1fr auto;gap:28px;align-items:center;padding:24px 0;border-bottom:1px solid #dce5e3}.meeting-item time{color:#16865f;font-weight:700}.meeting-item h3{margin:0 0 5px;color:#12303f;font-size:18px}.meeting-item p{font-size:15px}.meeting-item>a{color:#176b52;text-decoration:none;font-weight:700;white-space:nowrap}.documents-section{background:#f7f9fa}.document-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.document-card{display:flex;align-items:center;gap:15px;padding:22px;border:1px solid #dce6e3;border-radius:14px;background:#fff;color:inherit;text-decoration:none;transition:.2s}.document-card:hover{border-color:#16865f;transform:translateY(-3px)}.doc-type{display:grid;place-items:center;width:44px;height:48px;border-radius:8px;background:#e9f6f1;color:#16865f;font-size:11px;font-weight:800}.document-card h3{margin:0 0 5px;color:#12303f;font-size:16px}.document-card p{font-size:13px;line-height:1.5}.doc-arrow{margin-right:auto;color:#16865f;font-size:22px}.contact-strip{padding:64px 0;background:#176c5a;color:#fff}.contact-strip__inner{display:flex;justify-content:space-between;align-items:center;gap:40px}.contact-strip h2{margin:0 0 8px;color:#fff;font-size:30px}.contact-strip p{margin:0;color:#d7ece6}.contact-strip a{display:inline-flex;gap:12px;align-items:center;padding:14px 24px;border-radius:10px;background:#fff;color:#176c5a;text-decoration:none;font-weight:800;white-space:nowrap}.governance-reference{padding:78px 0;background:#fff}.governance-reference__grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;align-items:start}.governance-reference h2{margin:0 0 15px;color:#102f40;font-size:36px}.governance-reference p{color:#526b75;line-height:2}.compliance-list{display:grid;gap:12px}.compliance-list>div{padding:20px 22px;border-right:4px solid #16865f;background:#f4faf7;border-radius:10px}.compliance-list strong{color:#12303f}.compliance-list p{margin:5px 0 0;font-size:14px;line-height:1.7}.impact-section{padding:78px 0;background:#113d45;color:#fff}.impact-section .section-head h2{color:#fff}.impact-section .section-head>p{color:#cfdee0}.impact-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.impact-grid>div{padding:28px;border:1px solid rgba(255,255,255,.14);border-radius:14px;background:rgba(255,255,255,.06)}.impact-grid strong,.impact-grid span{display:block}.impact-grid strong{color:#7de0bd;font-size:40px}.impact-grid span{margin-top:7px;color:#edf5f5}.year-filter{display:flex;gap:7px}.year-filter button{padding:8px 14px;border:1px solid #d3e1dd;border-radius:7px;background:#fff;color:#55706a;cursor:pointer}.year-filter button.is-active{background:#176c5a;color:#fff;border-color:#176c5a}.participation-section{padding:0 0 76px}.participation-box{display:flex;align-items:center;justify-content:space-between;gap:40px;padding:38px 42px;border-radius:18px;background:#176c5a;color:#fff}.participation-box h2{margin:0 0 8px;color:#fff;font-size:30px}.participation-box p{margin:0;color:#d8ebe6}.participation-box a{padding:13px 22px;border-radius:9px;background:#fff;color:#176c5a;text-decoration:none;font-weight:800;white-space:nowrap}@media(max-width:900px){.intro-grid,.two-column,.governance-grid,.info-grid,.governance-reference__grid{grid-template-columns:1fr;gap:36px}.entity-grid{grid-template-columns:1fr}.area-grid{grid-template-columns:repeat(2,1fr)}.section-head,.publication-box{align-items:start;flex-direction:column}.governance-cards{grid-template-columns:1fr 1fr}.facts-grid,.impact-grid{grid-template-columns:repeat(2,1fr)}.document-grid{grid-template-columns:1fr}.meeting-item{grid-template-columns:130px 1fr}.meeting-item>a{grid-column:2}}@media(max-width:767px){.page-shell,.page-breadcrumb__container{width:calc(100% - 32px)}.page-breadcrumb__container{padding-bottom:34px}.page-breadcrumb__inner{min-height:72px;gap:8px;font-size:13px;overflow-x:auto;white-space:nowrap}.page-breadcrumb__separator{font-size:22px}.page-breadcrumb__heading p{font-size:16px}.intro-section,.entities-section,.detail-section,.detail-intro,.governance-section,.governance-reference,.impact-section{padding:58px 0}.section-head{display:block}.section-head>p{margin-top:14px}.entity-card{padding:26px}.governance-cards,.area-grid,.facts-grid,.member-grid,.workgroup-grid,.impact-grid{grid-template-columns:1fr}.publication-section{padding:48px 0}.publication-box{padding:28px 24px}.update-badge{min-width:0;width:100%}.detail-intro__grid{grid-template-columns:1fr}.status-panel>div{flex-direction:column}.status-panel strong{text-align:right}.meeting-item{grid-template-columns:1fr;gap:8px}.meeting-item>a{grid-column:1}.contact-strip__inner,.participation-box{align-items:start;flex-direction:column}.participation-box{padding:30px 24px}.year-filter{margin-top:16px}}@media print{.goh,.page-tools,footer,.contact-strip,.participation-section,.back-section{display:none!important}.page-breadcrumb,.detail-section,.governance-reference,.impact-section{break-inside:avoid}.advisory-main{color:#000}.detail-section--dark,.impact-section{background:#fff!important;color:#000!important}.detail-section--dark *,.impact-section *{color:#000!important}.page-breadcrumb__container,.page-shell{width:100%}}</style>
 <body class="dga-platform-page">
-<div class="demo-notice" role="status"><span class="demo-notice__dot" aria-hidden="true"></span><strong>نسخة تجريبية للعرض الداخلي — غير مخصصة للنشر العام</strong><span aria-hidden="true">—</span><strong class="demo-notice__owner">الاتصال الاستراتيجي</strong></div><a class="dga-skip-link" href="#main-content">تجاوز إلى المحتوى الرئيسي</a><header class="goh" id="goh-official-nav" aria-label="شريط التنقل الرسمي للهيئة العامة للإحصاء"><div class="goh__gov"><div class="goh__gov-row"><div class="goh__gov-main"><img class="goh__flag" src="https://webserver-gastat-dev.lfr.cloud/o/resources/images/flags/ksa.png" alt="علم المملكة العربية السعودية"><span>موقع حكومي مسجل لدى هيئة الحكومة الرقمية</span><button class="goh__verify" type="button" aria-expanded="false">كيف تتحقق <span class="goh__chev">⌄</span></button></div><div class="goh__gov-side"></div></div><div class="goh__gov-panel"><div class="goh__gov-content"><div class="goh__trust"><span class="goh__trust-icon">🔗</span><div><strong>روابط المواقع الإلكترونية الرسمية الحكومية تنتهي بـ gov.sa</strong><p>جميع روابط المواقع الرسمية التابعة للجهات الحكومية في المملكة العربية السعودية تنتهي بـ gov.sa</p></div></div><div class="goh__trust"><span class="goh__trust-icon">🔒</span><div><strong>المواقع الحكومية الموثقة تستخدم بروتوكول HTTPS</strong><p>تحقق من أن الموقع يستخدم اتصال HTTPS الآمن.</p></div></div><div class="goh__license"><img src="https://www.stats.gov.sa/o/resources/images/icons/DGA-logo-icon.svg" alt="هيئة الحكومة الرقمية"><span>مسجل لدى هيئة الحكومة الرقمية برقم:</span><a href="https://raqmi.dga.gov.sa/platforms/platforms/4d385b0e-6cdf-4b83-ceff-08ddc9ae4042/platform-license" target="_blank" rel="noopener">20260625369</a></div></div></div></div><div class="goh__main"><a class="goh__logo" href="https://www.stats.gov.sa/ar/home" aria-label="الرئيسية"><img src="https://www.stats.gov.sa/o/resources/images/logo/logo.svg" alt="الهيئة العامة للإحصاء"></a><nav class="goh__desktop" aria-label="القائمة الرئيسية"><ul class="goh__nav"><li class="goh__item"><button class="goh__trigger" type="button" aria-expanded="false">الهيئة<span>⌄</span></button><div class="goh__dropdown"><h3 class="goh__drop-title">الهيئة</h3><div class="goh__links goh__links--compact"><a href="https://www.stats.gov.sa/ar/gastat-about-us">من نحن</a><a href="https://www.stats.gov.sa/ar/board-of-directors">مجلس الإدارة</a><a href="https://www.stats.gov.sa/ar/organization-chart">الهيكل التنظيمي</a><a href="https://www.stats.gov.sa/ar/policies-and-strategies">السياسات والإستراتيجيات</a><a href="https://www.stats.gov.sa/ar/tenders-and-procurement">المنافسات والمشتريات</a><a href="https://www.stats.gov.sa/ar/budget-and-expenses">الميزانية والمصروفات</a><a href="https://www.stats.gov.sa/ar/annual-report">التقرير السنوي</a><a href="https://www.stats.gov.sa/ar/innovation">الابتكار الإحصائي</a><a href="https://www.stats.gov.sa/ar/laws-and-regulations">الأنظمة واللوائح</a><a href="https://www.stats.gov.sa/ar/the-second-saudi-statistics-forum">المنتدى السعودي الثاني للإحصاء</a></div></div></li><li class="goh__item goh__item--statistics-sections"><button class="goh__trigger" type="button" aria-expanded="false">البيانات والإحصاءات <span aria-hidden="true">⌄</span></button><div class="goh__dropdown goh__dropdown--statistics-sections"><h3 class="goh__drop-title">البيانات والإحصاءات</h3><div class="goh__statistics-sections-list" role="list"><details class="goh__statistics-section goh__statistics-section--field" role="listitem"><summary>المجال الإحصائي<span aria-hidden="true">›</span></summary><div class="goh__statistics-subsections"><div class="goh__stat-main-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>الإحصاءات الاقتصادية</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout" aria-label="تفريعات الإحصاءات الاقتصادية"><a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=120034">إحصاءات الحسابات القومية</a><a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=2197208">إحصاءات الاقتصادي الشامل</a><a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=122937">إحصاءات الاقتصاد الرقمي</a><a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=121417">إحصاءات الأسعار</a><a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=419271">إحصاءات الأعمال</a><a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=419285">إحصاءات الأعمال قصيرة المدى</a><a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=419305">إحصاءات الاستثمار</a><a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=499142">إحصاءات التجارة الدولية</a></div></div><div class="goh__stat-main-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>الإحصاءات الاجتماعية</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout" aria-label="تفريعات الإحصاءات الاجتماعية"><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=123704">إحصاءات سوق العمل</a><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=123758">إحصاءات الصحة</a><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=123610">إحصاءات النوع الاجتماعي والتنوع</a><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=124141">إحصاءات حيوية و سكانية</a><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=119030">إحصاءات أساليب الحياة</a><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=127325">إحصاءات الأحوال المعيشية</a><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=123932">إحصاءات الرياضة</a><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=124262">إحصاءات التعليم</a><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=127380">إحصاءات تعداد السعودية ٢٠٢٢</a></div></div><div class="goh__stat-main-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>الإحصاءات البيئية والمكانية</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout" aria-label="تفريعات الإحصاءات البيئية والمكانية"><a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124300">إحصاءات السياحة والحج والعمرة</a><a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124890">إحصاءات النقل والخدمات اللوجستية</a><a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124394">إحصاءات البيئة</a><a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124516">إحصاءات الزراعة</a><a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124703">إحصاءات الطاقة</a><a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124984">إحصاءات مكانية</a></div></div></div></details><details class="goh__statistics-section goh__statistics-section--subjects"><summary>حسب الموضوعات<span aria-hidden="true">›</span></summary><div class="goh__statistics-subsections goh__subject-groups"><div class="goh__stat-main-group goh__subject-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>السكان والمجتمع</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات السكان والمجتمع"><button type="button">إحصاءات السكان</button><button type="button">التركيبة السكانية</button><button type="button">المواليد والوفيات</button><button type="button">الهجرة</button><button type="button">الصحة</button><button type="button">التعليم</button><button type="button">الثقافة</button><button type="button">الأمن والعدالة</button><button type="button">جودة الحياة</button><button type="button">الزواج والطلاق</button><button type="button">العمل التطوعي</button><button type="button">المؤشرات الاجتماعية</button></div></div><div class="goh__stat-main-group goh__subject-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>سوق العمل والأسر والإسكان</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات سوق العمل والأسر والإسكان"><button type="button">سوق العمل</button><button type="button">التوظيف</button><button type="button">البطالة</button><button type="button">الأجور</button><button type="button">الوظائف الشاغرة</button><button type="button">دخل وإنفاق الأسر</button><button type="button">الإسكان</button><button type="button">أسعار العقارات</button><button type="button">الأراضي</button></div></div><div class="goh__stat-main-group goh__subject-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>الاقتصاد والأسعار</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات الاقتصاد والأسعار"><button type="button">الحسابات القومية</button><button type="button">الناتج المحلي الإجمالي</button><button type="button">التضخم</button><button type="button">مؤشرات الأسعار</button><button type="button">المالية العامة</button></div></div><div class="goh__stat-main-group goh__subject-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>الأعمال والصناعة</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات الأعمال والصناعة"><button type="button">قطاع الأعمال</button><button type="button">الصناعة</button><button type="button">الإنشاءات</button><button type="button">الخدمات</button><button type="button">الإنتاجية</button><button type="button">المنشآت الاقتصادية</button></div></div><div class="goh__stat-main-group goh__subject-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>التجارة والاستثمار والسياحة</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات التجارة والاستثمار والسياحة"><button type="button">التجارة الدولية</button><button type="button">الصادرات</button><button type="button">الواردات</button><button type="button">ميزان المدفوعات</button><button type="button">الاستثمار الأجنبي</button><button type="button">السياحة</button></div></div><div class="goh__stat-main-group goh__subject-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>البيئة والاستدامة</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات البيئة والاستدامة"><button type="button">البيئة</button><button type="button">المياه</button><button type="button">الطاقة</button><button type="button">التغير المناخي</button><button type="button">النفايات</button><button type="button">الموارد الطبيعية</button></div></div><div class="goh__stat-main-group goh__subject-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>النقل والبنية التحتية</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات النقل والبنية التحتية"><button type="button">النقل</button><button type="button">الاتصالات</button><button type="button">الاقتصاد الرقمي</button><button type="button">الإنترنت</button><button type="button">البنية التحتية</button><button type="button">استخدام الأراضي</button></div></div><div class="goh__stat-main-group goh__subject-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>المناطق والإحصاءات المكانية</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات المناطق والإحصاءات المكانية"><button type="button">المناطق الإدارية</button><button type="button">المحافظات</button><button type="button">المدن</button><button type="button">الإحصاءات المكانية</button><button type="button">المؤشرات الإقليمية</button></div></div></div></details><details class="goh__statistics-section goh__statistics-section--regions"><summary>حسب المناطق<span aria-hidden="true">›</span></summary><div class="goh__region-flyout" aria-label="مناطق المملكة"><a href="regions.html?region=%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6">الرياض</a><a href="regions.html?region=%D9%85%D9%83%D8%A9%20%D8%A7%D9%84%D9%85%D9%83%D8%B1%D9%85%D8%A9">مكة المكرمة</a><a href="regions.html?region=%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9">المدينة المنورة</a><a href="regions.html?region=%D8%A7%D9%84%D9%82%D8%B5%D9%8A%D9%85">القصيم</a><a href="regions.html?region=%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9">المنطقة الشرقية</a><a href="regions.html?region=%D8%B9%D8%B3%D9%8A%D8%B1">عسير</a><a href="regions.html?region=%D8%AA%D8%A8%D9%88%D9%83">تبوك</a><a href="regions.html?region=%D8%AD%D8%A7%D8%A6%D9%84">حائل</a><a href="regions.html?region=%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF%20%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9">الحدود الشمالية</a><a href="regions.html?region=%D8%AC%D8%A7%D8%B2%D8%A7%D9%86">جازان</a><a href="regions.html?region=%D9%86%D8%AC%D8%B1%D8%A7%D9%86">نجران</a><a href="regions.html?region=%D8%A7%D9%84%D8%A8%D8%A7%D8%AD%D8%A9">الباحة</a><a href="regions.html?region=%D8%A7%D9%84%D8%AC%D9%88%D9%81">الجوف</a></div></details><details class="goh__statistics-section goh__statistics-section--international"><summary>حسب المؤشرات والتقارير الدولية<span aria-hidden="true">›</span></summary><div class="goh__international-flyout" aria-label="المؤشرات الدولية"><div class="goh__international-goals-group"><button class="goh__international-goals-trigger" type="button" aria-expanded="false"><span>التنمية المستدامة</span><span aria-hidden="true">›</span></button><div class="goh__sdg-flyout" aria-label="أهداف التنمية المستدامة"><a href="https://www.stats.gov.sa/ar/w/no-poverty">الهدف 1: القضاء على الفقر</a><a href="https://www.stats.gov.sa/ar/w/zero-hunger">الهدف 2: القضاء التام على الجوع</a><a href="https://www.stats.gov.sa/ar/w/good-health-and-well-being">الهدف 3: الصحة الجيدة والرفاه</a><a href="https://www.stats.gov.sa/ar/w/quality-education">الهدف 4: التعليم الجيد</a><a href="https://www.stats.gov.sa/ar/w/gender-equality">الهدف 5: المساواة بين الجنسين</a><a href="https://www.stats.gov.sa/ar/w/clean-water-and-sanitation">الهدف 6: المياه النظيفة والنظافة الصحية</a><a href="https://www.stats.gov.sa/ar/w/affordable-and-clean-energy">الهدف 7: طاقة نظيفة وبأسعار معقولة</a><a href="https://www.stats.gov.sa/ar/w/decent-work-and-economic-growth">الهدف 8: العمل اللائق ونمو الاقتصاد</a><a href="https://www.stats.gov.sa/ar/w/industry-innovation-and-infrastructure">الهدف 9: الصناعة والابتكار والهياكل الأساسية</a><a href="https://www.stats.gov.sa/ar/w/reduced-inequality">الهدف 10: الحد من أوجه عدم المساواة</a><a href="https://www.stats.gov.sa/ar/w/sustainable-cities-and-communities">الهدف 11: مدن ومجتمعات محلية مستدامة</a><a href="https://www.stats.gov.sa/ar/w/responsible-consumption-and-production">الهدف 12: الاستهلاك والإنتاج المسؤولان</a><a href="https://www.stats.gov.sa/ar/w/climate-action">الهدف 13: العمل المناخي</a><a href="https://www.stats.gov.sa/ar/w/life-below-water">الهدف 14: الحياة تحت الماء</a><a href="https://www.stats.gov.sa/ar/w/life-on-land">الهدف 15: الحياة في البر</a><a href="https://www.stats.gov.sa/ar/w/peace-justice-and-strong-institutions">الهدف 16: السلام والعدل والمؤسسات القوية</a><a href="https://www.stats.gov.sa/ar/w/partnerships-to-achieve-the-goals">الهدف 17: عقد الشراكات لتحقيق الأهداف</a></div></div><a href="https://www.stats.gov.sa/ar/international-reports">قابلية العيش في مدن السعودية</a><a href="https://www.stats.gov.sa/ar/international-reports">مؤشرات السوق الخليجية المشتركة</a></div></details></div></div></li><li class="goh__item"><button class="goh__trigger" type="button" aria-expanded="false">الخدمات<span>⌄</span></button><div class="goh__dropdown"><h3 class="goh__drop-title">الخدمات</h3><div class="goh__links goh__links--compact"><a href="https://www.stats.gov.sa/ar/statistical-information-request">طلب معلومات إحصائية</a><a href="https://www.stats.gov.sa/ar/microdata-request">طلب البيانات الدقيقة</a><a href="https://www.stats.gov.sa/ar/business-center">مركز الأعمال (الخدمات الإحصائية)</a></div></div></li><li class="goh__item"><button class="goh__trigger" type="button" aria-expanded="false">التوعية<span>⌄</span></button><div class="goh__dropdown"><h3 class="goh__drop-title">التوعية</h3><div class="goh__links goh__links--compact"><a href="https://www.stats.gov.sa/ar/survey-awareness">توعية المسوح</a><a href="https://www.stats.gov.sa/ar/statistical-knowledge-program">برنامج المعرفة الإحصائية</a><a href="https://www.stats.gov.sa/ar/story-of-number">حكاية رقم</a><a href="https://www.stats.gov.sa/ar/statistical-products">تعرف على المنتجات الإحصائية</a><a href="https://www.stats.gov.sa/ar/self-enumeration">منصة الاستيفاء الذاتي</a></div></div></li><li class="goh__item"><button class="goh__trigger" type="button" aria-expanded="false">المنهجيات والمعايير<span>⌄</span></button><div class="goh__dropdown"><h3 class="goh__drop-title">المنهجيات والمعايير</h3><div class="goh__links goh__links--compact"><a href="https://www.stats.gov.sa/ar/statistical-guides">الأدلة الإحصائية</a><a href="https://www.stats.gov.sa/ar/classifications">التصانيف</a><a href="https://www.stats.gov.sa/ar/glossary">معجم المصطلحات</a><a href="https://www.stats.gov.sa/ar/editorial-policy">السياسة التحريرية ودليل كتابة الأعداد</a></div></div></li><li class="goh__item"><button class="goh__trigger" type="button" aria-expanded="false">المركز الإعلامي والفعاليات<span>⌄</span></button><div class="goh__dropdown"><h3 class="goh__drop-title">المركز الإعلامي والفعاليات</h3><div class="goh__links goh__links--compact"><a href="https://www.stats.gov.sa/ar/un-world-data-forum-2026">منتدى الأمم المتحدة العالمي السادس للبيانات 2026</a><a href="https://www.stats.gov.sa/ar/data-innovation-hackathon">هكاثون الابتكار في البيانات</a><a href="https://www.stats.gov.sa/ar/news">الأخبار</a><a href="https://www.stats.gov.sa/ar/media-center">الوسائط</a><a href="https://www.stats.gov.sa/ar/transfers-platform">منصة المنقولات</a><a href="https://www.stats.gov.sa/ar/identity">هوية الهيئة</a><a href="https://www.stats.gov.sa/ar/activities-and-achievements">النشاطات والإنجازات</a></div></div></li><li class="goh__item"><button class="goh__trigger" type="button" aria-expanded="false">تواصل معنا<span>⌄</span></button><div class="goh__dropdown"><h3 class="goh__drop-title">تواصل معنا</h3><div class="goh__links goh__links--compact"><a href="https://www.stats.gov.sa/ar/contact-us">تواصل معنا</a><a href="https://www.stats.gov.sa/ar/branches">الفروع</a><a href="https://www.stats.gov.sa/ar/e-participation">المشاركة الإلكترونية</a><a href="https://www.stats.gov.sa/ar/frequently-asked-questions">الأسئلة الشائعة</a><a href="https://www.stats.gov.sa/ar/careers">التوظيف</a><a href="https://www.stats.gov.sa/ar/cooperative-training">التدريب التعاوني</a></div></div></li></ul></nav><div class="goh__actions"><button class="goh__action goh__search-toggle" type="button" aria-label="فتح البحث" aria-expanded="false"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button><a class="goh__action goh__action--lang" href="https://www.stats.gov.sa/en/" lang="en">English</a><a class="goh__action goh__login goh__login--icon" href="https://www.stats.gov.sa/ar/c/portal/login" aria-label="تسجيل الدخول" title="تسجيل الدخول"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="8" r="3.5" stroke="currentColor" stroke-width="1.8"/><path d="M5.5 20c.55-4 2.7-6 6.5-6s5.95 2 6.5 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="goh__sr-only">تسجيل الدخول</span></a><button class="goh__action goh__hamb" type="button" aria-label="فتح القائمة" aria-expanded="false"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div></div><div class="goh__search" role="search"><div class="goh__search-head"><h3>بحث</h3><button class="goh__action goh__search-close" type="button" aria-label="إغلاق البحث">✕</button></div><form class="goh__search-form" action="https://www.stats.gov.sa/ar/search" method="get"><input class="goh__search-input" name="q" type="search" placeholder="ابحث في موقع الهيئة العامة للإحصاء" aria-label="كلمة البحث"><button class="goh__search-submit" type="submit">بحث</button></form><div class="goh__popular"><strong>الكلمات الأعلى بحثًا:</strong><a href="https://www.stats.gov.sa/ar/search?q=الناتج المحلي الإجمالي">الناتج المحلي الإجمالي</a><a href="https://www.stats.gov.sa/ar/search?q=الإنتاج الصناعي">الإنتاج الصناعي</a><a href="https://www.stats.gov.sa/ar/search?q=سوق العمل">سوق العمل</a><a href="https://www.stats.gov.sa/ar/search?q=الأسعار">الأسعار</a></div></div><div class="goh__mobile-panel"><div class="goh__mobile-item"><button type="button" class="goh__mobile-trigger" aria-expanded="false"><span>الهيئة</span><span>⌄</span></button><div class="goh__mobile-menu"><a href="https://www.stats.gov.sa/ar/gastat-about-us">من نحن</a><a href="https://www.stats.gov.sa/ar/board-of-directors">مجلس الإدارة</a><a href="https://www.stats.gov.sa/ar/organization-chart">الهيكل التنظيمي</a><a href="https://www.stats.gov.sa/ar/policies-and-strategies">السياسات والإستراتيجيات</a><a href="https://www.stats.gov.sa/ar/tenders-and-procurement">المنافسات والمشتريات</a><a href="https://www.stats.gov.sa/ar/budget-and-expenses">الميزانية والمصروفات</a><a href="https://www.stats.gov.sa/ar/annual-report">التقرير السنوي</a><a href="https://www.stats.gov.sa/ar/innovation">الابتكار الإحصائي</a><a href="https://www.stats.gov.sa/ar/laws-and-regulations">الأنظمة واللوائح</a><a href="https://www.stats.gov.sa/ar/the-second-saudi-statistics-forum">المنتدى السعودي الثاني للإحصاء</a></div></div><div class="goh__mobile-item goh__mobile-item--statistics-sections"><button type="button" class="goh__mobile-trigger" aria-expanded="false"><span>البيانات والإحصاءات</span><span aria-hidden="true">⌄</span></button><div class="goh__mobile-menu goh__mobile-menu--statistics-sections"><details class="goh__statistics-section goh__statistics-section--field"><summary>المجال الإحصائي<span aria-hidden="true">›</span></summary><div class="goh__statistics-subsections"><div class="goh__stat-main-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>الإحصاءات الاقتصادية</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout" aria-label="تفريعات الإحصاءات الاقتصادية"><a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=120034">إحصاءات الحسابات القومية</a><a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=2197208">إحصاءات الاقتصادي الشامل</a><a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=122937">إحصاءات الاقتصاد الرقمي</a><a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=121417">إحصاءات الأسعار</a><a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=419271">إحصاءات الأعمال</a><a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=419285">إحصاءات الأعمال قصيرة المدى</a><a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=419305">إحصاءات الاستثمار</a><a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=499142">إحصاءات التجارة الدولية</a></div></div><div class="goh__stat-main-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>الإحصاءات الاجتماعية</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout" aria-label="تفريعات الإحصاءات الاجتماعية"><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=123704">إحصاءات سوق العمل</a><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=123758">إحصاءات الصحة</a><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=123610">إحصاءات النوع الاجتماعي والتنوع</a><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=124141">إحصاءات حيوية و سكانية</a><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=119030">إحصاءات أساليب الحياة</a><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=127325">إحصاءات الأحوال المعيشية</a><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=123932">إحصاءات الرياضة</a><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=124262">إحصاءات التعليم</a><a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=127380">إحصاءات تعداد السعودية ٢٠٢٢</a></div></div><div class="goh__stat-main-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>الإحصاءات البيئية والمكانية</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout" aria-label="تفريعات الإحصاءات البيئية والمكانية"><a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124300">إحصاءات السياحة والحج والعمرة</a><a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124890">إحصاءات النقل والخدمات اللوجستية</a><a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124394">إحصاءات البيئة</a><a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124516">إحصاءات الزراعة</a><a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124703">إحصاءات الطاقة</a><a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124984">إحصاءات مكانية</a></div></div></div></details><details class="goh__statistics-section goh__statistics-section--subjects"><summary>حسب الموضوعات<span aria-hidden="true">›</span></summary><div class="goh__statistics-subsections goh__subject-groups"><div class="goh__stat-main-group goh__subject-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>السكان والمجتمع</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات السكان والمجتمع"><button type="button">إحصاءات السكان</button><button type="button">التركيبة السكانية</button><button type="button">المواليد والوفيات</button><button type="button">الهجرة</button><button type="button">الصحة</button><button type="button">التعليم</button><button type="button">الثقافة</button><button type="button">الأمن والعدالة</button><button type="button">جودة الحياة</button><button type="button">الزواج والطلاق</button><button type="button">العمل التطوعي</button><button type="button">المؤشرات الاجتماعية</button></div></div><div class="goh__stat-main-group goh__subject-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>سوق العمل والأسر والإسكان</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات سوق العمل والأسر والإسكان"><button type="button">سوق العمل</button><button type="button">التوظيف</button><button type="button">البطالة</button><button type="button">الأجور</button><button type="button">الوظائف الشاغرة</button><button type="button">دخل وإنفاق الأسر</button><button type="button">الإسكان</button><button type="button">أسعار العقارات</button><button type="button">الأراضي</button></div></div><div class="goh__stat-main-group goh__subject-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>الاقتصاد والأسعار</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات الاقتصاد والأسعار"><button type="button">الحسابات القومية</button><button type="button">الناتج المحلي الإجمالي</button><button type="button">التضخم</button><button type="button">مؤشرات الأسعار</button><button type="button">المالية العامة</button></div></div><div class="goh__stat-main-group goh__subject-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>الأعمال والصناعة</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات الأعمال والصناعة"><button type="button">قطاع الأعمال</button><button type="button">الصناعة</button><button type="button">الإنشاءات</button><button type="button">الخدمات</button><button type="button">الإنتاجية</button><button type="button">المنشآت الاقتصادية</button></div></div><div class="goh__stat-main-group goh__subject-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>التجارة والاستثمار والسياحة</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات التجارة والاستثمار والسياحة"><button type="button">التجارة الدولية</button><button type="button">الصادرات</button><button type="button">الواردات</button><button type="button">ميزان المدفوعات</button><button type="button">الاستثمار الأجنبي</button><button type="button">السياحة</button></div></div><div class="goh__stat-main-group goh__subject-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>البيئة والاستدامة</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات البيئة والاستدامة"><button type="button">البيئة</button><button type="button">المياه</button><button type="button">الطاقة</button><button type="button">التغير المناخي</button><button type="button">النفايات</button><button type="button">الموارد الطبيعية</button></div></div><div class="goh__stat-main-group goh__subject-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>النقل والبنية التحتية</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات النقل والبنية التحتية"><button type="button">النقل</button><button type="button">الاتصالات</button><button type="button">الاقتصاد الرقمي</button><button type="button">الإنترنت</button><button type="button">البنية التحتية</button><button type="button">استخدام الأراضي</button></div></div><div class="goh__stat-main-group goh__subject-group"><button class="goh__stat-main-group-trigger" type="button" aria-expanded="false"><span>المناطق والإحصاءات المكانية</span><span aria-hidden="true">›</span></button><div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات المناطق والإحصاءات المكانية"><button type="button">المناطق الإدارية</button><button type="button">المحافظات</button><button type="button">المدن</button><button type="button">الإحصاءات المكانية</button><button type="button">المؤشرات الإقليمية</button></div></div></div></details><details class="goh__statistics-section goh__statistics-section--regions"><summary>حسب المناطق<span aria-hidden="true">›</span></summary><div class="goh__region-flyout" aria-label="مناطق المملكة"><a href="regions.html?region=%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6">الرياض</a><a href="regions.html?region=%D9%85%D9%83%D8%A9%20%D8%A7%D9%84%D9%85%D9%83%D8%B1%D9%85%D8%A9">مكة المكرمة</a><a href="regions.html?region=%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9">المدينة المنورة</a><a href="regions.html?region=%D8%A7%D9%84%D9%82%D8%B5%D9%8A%D9%85">القصيم</a><a href="regions.html?region=%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9">المنطقة الشرقية</a><a href="regions.html?region=%D8%B9%D8%B3%D9%8A%D8%B1">عسير</a><a href="regions.html?region=%D8%AA%D8%A8%D9%88%D9%83">تبوك</a><a href="regions.html?region=%D8%AD%D8%A7%D8%A6%D9%84">حائل</a><a href="regions.html?region=%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF%20%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9">الحدود الشمالية</a><a href="regions.html?region=%D8%AC%D8%A7%D8%B2%D8%A7%D9%86">جازان</a><a href="regions.html?region=%D9%86%D8%AC%D8%B1%D8%A7%D9%86">نجران</a><a href="regions.html?region=%D8%A7%D9%84%D8%A8%D8%A7%D8%AD%D8%A9">الباحة</a><a href="regions.html?region=%D8%A7%D9%84%D8%AC%D9%88%D9%81">الجوف</a></div></details><details class="goh__statistics-section goh__statistics-section--international"><summary>حسب المؤشرات والتقارير الدولية<span aria-hidden="true">›</span></summary><div class="goh__international-flyout" aria-label="المؤشرات الدولية"><div class="goh__international-goals-group"><button class="goh__international-goals-trigger" type="button" aria-expanded="false"><span>التنمية المستدامة</span><span aria-hidden="true">›</span></button><div class="goh__sdg-flyout" aria-label="أهداف التنمية المستدامة"><a href="https://www.stats.gov.sa/ar/w/no-poverty">الهدف 1: القضاء على الفقر</a><a href="https://www.stats.gov.sa/ar/w/zero-hunger">الهدف 2: القضاء التام على الجوع</a><a href="https://www.stats.gov.sa/ar/w/good-health-and-well-being">الهدف 3: الصحة الجيدة والرفاه</a><a href="https://www.stats.gov.sa/ar/w/quality-education">الهدف 4: التعليم الجيد</a><a href="https://www.stats.gov.sa/ar/w/gender-equality">الهدف 5: المساواة بين الجنسين</a><a href="https://www.stats.gov.sa/ar/w/clean-water-and-sanitation">الهدف 6: المياه النظيفة والنظافة الصحية</a><a href="https://www.stats.gov.sa/ar/w/affordable-and-clean-energy">الهدف 7: طاقة نظيفة وبأسعار معقولة</a><a href="https://www.stats.gov.sa/ar/w/decent-work-and-economic-growth">الهدف 8: العمل اللائق ونمو الاقتصاد</a><a href="https://www.stats.gov.sa/ar/w/industry-innovation-and-infrastructure">الهدف 9: الصناعة والابتكار والهياكل الأساسية</a><a href="https://www.stats.gov.sa/ar/w/reduced-inequality">الهدف 10: الحد من أوجه عدم المساواة</a><a href="https://www.stats.gov.sa/ar/w/sustainable-cities-and-communities">الهدف 11: مدن ومجتمعات محلية مستدامة</a><a href="https://www.stats.gov.sa/ar/w/responsible-consumption-and-production">الهدف 12: الاستهلاك والإنتاج المسؤولان</a><a href="https://www.stats.gov.sa/ar/w/climate-action">الهدف 13: العمل المناخي</a><a href="https://www.stats.gov.sa/ar/w/life-below-water">الهدف 14: الحياة تحت الماء</a><a href="https://www.stats.gov.sa/ar/w/life-on-land">الهدف 15: الحياة في البر</a><a href="https://www.stats.gov.sa/ar/w/peace-justice-and-strong-institutions">الهدف 16: السلام والعدل والمؤسسات القوية</a><a href="https://www.stats.gov.sa/ar/w/partnerships-to-achieve-the-goals">الهدف 17: عقد الشراكات لتحقيق الأهداف</a></div></div><a href="https://www.stats.gov.sa/ar/international-reports">قابلية العيش في مدن السعودية</a><a href="https://www.stats.gov.sa/ar/international-reports">مؤشرات السوق الخليجية المشتركة</a></div></details></div></div><div class="goh__mobile-item"><button type="button" class="goh__mobile-trigger" aria-expanded="false"><span>الخدمات</span><span>⌄</span></button><div class="goh__mobile-menu"><a href="https://www.stats.gov.sa/ar/statistical-information-request">طلب معلومات إحصائية</a><a href="https://www.stats.gov.sa/ar/microdata-request">طلب البيانات الدقيقة</a><a href="https://www.stats.gov.sa/ar/business-center">مركز الأعمال (الخدمات الإحصائية)</a></div></div><div class="goh__mobile-item"><button type="button" class="goh__mobile-trigger" aria-expanded="false"><span>التوعية</span><span>⌄</span></button><div class="goh__mobile-menu"><a href="https://www.stats.gov.sa/ar/survey-awareness">توعية المسوح</a><a href="https://www.stats.gov.sa/ar/statistical-knowledge-program">برنامج المعرفة الإحصائية</a><a href="https://www.stats.gov.sa/ar/story-of-number">حكاية رقم</a><a href="https://www.stats.gov.sa/ar/statistical-products">تعرف على المنتجات الإحصائية</a><a href="https://www.stats.gov.sa/ar/self-enumeration">منصة الاستيفاء الذاتي</a></div></div><div class="goh__mobile-item"><button type="button" class="goh__mobile-trigger" aria-expanded="false"><span>المنهجيات والمعايير</span><span>⌄</span></button><div class="goh__mobile-menu"><a href="https://www.stats.gov.sa/ar/statistical-guides">الأدلة الإحصائية</a><a href="https://www.stats.gov.sa/ar/classifications">التصانيف</a><a href="https://www.stats.gov.sa/ar/glossary">معجم المصطلحات</a><a href="https://www.stats.gov.sa/ar/editorial-policy">السياسة التحريرية ودليل كتابة الأعداد</a></div></div><div class="goh__mobile-item"><button type="button" class="goh__mobile-trigger" aria-expanded="false"><span>المركز الإعلامي والفعاليات</span><span>⌄</span></button><div class="goh__mobile-menu"><a href="https://www.stats.gov.sa/ar/un-world-data-forum-2026">منتدى الأمم المتحدة العالمي السادس للبيانات 2026</a><a href="https://www.stats.gov.sa/ar/data-innovation-hackathon">هكاثون الابتكار في البيانات</a><a href="https://www.stats.gov.sa/ar/news">الأخبار</a><a href="https://www.stats.gov.sa/ar/media-center">الوسائط</a><a href="https://www.stats.gov.sa/ar/transfers-platform">منصة المنقولات</a><a href="https://www.stats.gov.sa/ar/identity">هوية الهيئة</a><a href="https://www.stats.gov.sa/ar/activities-and-achievements">النشاطات والإنجازات</a></div></div><div class="goh__mobile-item"><button type="button" class="goh__mobile-trigger" aria-expanded="false"><span>تواصل معنا</span><span>⌄</span></button><div class="goh__mobile-menu"><a href="https://www.stats.gov.sa/ar/contact-us">تواصل معنا</a><a href="https://www.stats.gov.sa/ar/branches">الفروع</a><a href="https://www.stats.gov.sa/ar/e-participation">المشاركة الإلكترونية</a><a href="https://www.stats.gov.sa/ar/frequently-asked-questions">الأسئلة الشائعة</a><a href="https://www.stats.gov.sa/ar/careers">التوظيف</a><a href="https://www.stats.gov.sa/ar/cooperative-training">التدريب التعاوني</a></div></div></div></header>
-<section class="page-breadcrumb" aria-labelledby="page-title"><div class="page-breadcrumb__container"><nav class="page-breadcrumb__inner" aria-label="مسار التنقل"><a href="https://www.stats.gov.sa/ar/home">الرئيسية</a><span class="page-breadcrumb__separator" aria-hidden="true">‹</span><a href="https://www.stats.gov.sa/ar/gastat-about-us">الهيئة</a><span class="page-breadcrumb__separator" aria-hidden="true">‹</span><a href="index.html">المجموعات واللجان الاستشارية</a><span class="page-breadcrumb__separator" aria-hidden="true">‹</span><span aria-current="page">اللجنة الإعلامية</span></nav><div class="page-breadcrumb__heading"><h1 id="page-title">اللجنة الإعلامية</h1><p>خبرات إعلامية تدعم التواصل الفاعل وتعزز الوعي بالمنتجات والمعلومات الإحصائية.</p></div></div></section>
-<main id="main-content" class="advisory-main detail-main"><section class="detail-intro"><div class="page-shell detail-intro__grid"><div class="detail-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 11 18-5v12L3 13zM11.6 15.4 13 21H7l-1.8-7"/><path d="M21 10v4"/></svg></div><div><h2>عن اللجنة الإعلامية</h2><p>فريق استشاري لتقديم الاستشارات ورفع التوصيات فيما يخص أنشطة وبرامج الوعي والمعرفة الإحصائية، الداعمة لتعزيز الصورة الذهنية ورفع مستوى الثقة في مخرجات الهيئة لدى كافة الفئات المستهدفة.</p></div></div></section><section class="detail-section detail-section--dark facts-section"><div class="page-shell"><div class="facts-grid"><div><span>مدة العضوية</span><strong>سنتان</strong><small>قابلة للتجديد وفق الضوابط</small></div><div><span>عدد الأعضاء</span><strong>8</strong><small>من خبرات وقطاعات متنوعة</small></div><div><span>دورية الاجتماعات</span><strong>ربع سنوية</strong><small>واجتماعات إضافية عند الحاجة</small></div><div><span>مجموعات العمل</span><strong>3</strong><small>فرق متخصصة حسب الأولويات</small></div></div></div></section><section class="detail-section detail-section--soft"><div class="page-shell two-column"><div><h2>أهداف واضحة تدعم أعمال الهيئة</h2><p>تعمل اللجنة الإعلامية ضمن نطاق استشاري، وتقدم رؤاها وتوصياتها وفق الموضوعات المحالة إليها وبما يتوافق مع الأنظمة والسياسات المعتمدة.</p></div><ol class="goal-list"><li><span>01</span><p>تعزيز الوعي بالعمل والمنتجات الإحصائية.</p></li><li><span>02</span><p>دعم وضوح واتساق الرسائل الإعلامية للهيئة.</p></li><li><span>03</span><p>تقديم الرأي المتخصص في المبادرات والحملات الإعلامية.</p></li><li><span>04</span><p>تعزيز التواصل الفاعل مع الجمهور ووسائل الإعلام.</p></li></ol></div></section><section class="governance-reference"><div class="page-shell governance-reference__grid"><div><h2>إطار مؤسسي واضح</h2><p>أُنشئت اللجنة الإعلامية بقرار من صاحب الصلاحية، وترتبط بسعادة رئيس الهيئة، وتمارس دورًا استشاريًا لا يتضمن صلاحيات تنفيذية أو تنظيمية.</p></div><div class="compliance-list"><div><strong>الاستقلالية المهنية</strong><p>تُقدَّم الآراء والتوصيات بموضوعية واستقلال مهني.</p></div><div><strong>سرية المداولات</strong><p>تُحفظ المناقشات والوثائق المقيدة وفق الأنظمة والسياسات.</p></div><div><strong>تعارض المصالح</strong><p>يلتزم الأعضاء بالإفصاح عن المصالح ذات الصلة بالموضوعات محل الدراسة.</p></div></div></div></section><section class="detail-section members-section"><div class="page-shell"><div class="section-head"><div><h2>خبرات متنوعة ورؤية مشتركة</h2></div></div><div class="member-grid"><article class="member-card"><div class="member-photo" aria-hidden="true"><img src="assets/member-examples.png" alt="" style="--member-col:0;--member-row:0"></div><div class="member-card__content"><span class="member-role">الرئيس</span><h3>رئيس اللجنة</h3><p>خبير في الاتصال والإعلام المؤسسي</p></div></article><article class="member-card"><div class="member-photo" aria-hidden="true"><img src="assets/member-examples.png" alt="" style="--member-col:0;--member-row:1"></div><div class="member-card__content"><span class="member-role">نائب الرئيس</span><h3>نائب الرئيس</h3><p>خبير في الاستراتيجيات الإعلامية</p></div></article><article class="member-card"><div class="member-photo" aria-hidden="true"><img src="assets/member-examples.png" alt="" style="--member-col:1;--member-row:0"></div><div class="member-card__content"><span class="member-role">عضو</span><h3>عضو</h3><p>ممثل وسائل الإعلام</p></div></article><article class="member-card"><div class="member-photo" aria-hidden="true"><img src="assets/member-examples.png" alt="" style="--member-col:1;--member-row:1"></div><div class="member-card__content"><span class="member-role">عضو</span><h3>عضو</h3><p>خبير في المحتوى الرقمي</p></div></article><article class="member-card"><div class="member-photo" aria-hidden="true"><img src="assets/member-examples.png" alt="" style="--member-col:2;--member-row:0"></div><div class="member-card__content"><span class="member-role">عضو</span><h3>عضو</h3><p>خبير في الاتصال الحكومي</p></div></article><article class="member-card"><div class="member-photo" aria-hidden="true"><img src="assets/member-examples.png" alt="" style="--member-col:2;--member-row:1"></div><div class="member-card__content"><span class="member-role">عضو</span><h3>عضو</h3><p>خبير في الوعي والثقافة الإحصائية</p></div></article><article class="member-card"><div class="member-photo" aria-hidden="true"><img src="assets/member-examples.png" alt="" style="--member-col:3;--member-row:0"></div><div class="member-card__content"><span class="member-role">عضو</span><h3>عضو</h3><p>خبير في قياس الأثر الإعلامي</p></div></article><article class="member-card"><div class="member-photo" aria-hidden="true"><img src="assets/member-examples.png" alt="" style="--member-col:3;--member-row:1"></div><div class="member-card__content"><span class="member-role">الأمانة</span><h3>أمين اللجنة</h3><p>ممثل الهيئة العامة للإحصاء</p></div></article></div><p class="member-example-note">صور وتشكيل تجريبي لأغراض العرض الداخلي.</p></div></section><section class="contact-strip"><div class="page-shell contact-strip__inner"><div><h2>للاستفسارات المتعلقة بـاللجنة الإعلامية</h2><p>يمكن التواصل مع أمانة اللجنة الإعلامية عبر قنوات الهيئة الرسمية.</p></div><a href="https://www.stats.gov.sa/ar/contact-us">تواصل معنا <span aria-hidden="true">←</span></a></div></section><section class="back-section"><div class="page-shell"><a class="back-link" href="index.html"><span aria-hidden="true">→</span> العودة إلى المجموعات واللجان الاستشارية</a></div></section></main><footer>
+<div class="demo-notice" role="status">
+<span class="demo-notice__dot" aria-hidden="true">
+</span>
+<strong>نسخة تجريبية للعرض الداخلي — غير مخصصة للنشر العام</strong>
+<span aria-hidden="true">—</span>
+<strong class="demo-notice__owner">الاتصال الاستراتيجي</strong>
+</div>
+<a class="dga-skip-link" href="#main-content">تجاوز إلى المحتوى الرئيسي</a>
+<header class="goh" id="goh-official-nav" aria-label="شريط التنقل الرسمي للهيئة العامة للإحصاء">
+<div class="goh__gov">
+<div class="goh__gov-row">
+<div class="goh__gov-main">
+<img class="goh__flag" src="https://webserver-gastat-dev.lfr.cloud/o/resources/images/flags/ksa.png" alt="علم المملكة العربية السعودية">
+<span>موقع حكومي مسجل لدى هيئة الحكومة الرقمية</span>
+<button class="goh__verify" type="button" aria-expanded="false">كيف تتحقق <span class="goh__chev">⌄</span>
+</button>
+</div>
+<div class="goh__gov-side">
+</div>
+</div>
+<div class="goh__gov-panel">
+<div class="goh__gov-content">
+<div class="goh__trust">
+<span class="goh__trust-icon">🔗</span>
+<div>
+<strong>روابط المواقع الإلكترونية الرسمية الحكومية تنتهي بـ gov.sa</strong>
+<p>جميع روابط المواقع الرسمية التابعة للجهات الحكومية في المملكة العربية السعودية تنتهي بـ gov.sa</p>
+</div>
+</div>
+<div class="goh__trust">
+<span class="goh__trust-icon">🔒</span>
+<div>
+<strong>المواقع الحكومية الموثقة تستخدم بروتوكول HTTPS</strong>
+<p>تحقق من أن الموقع يستخدم اتصال HTTPS الآمن.</p>
+</div>
+</div>
+<div class="goh__license">
+<img src="https://www.stats.gov.sa/o/resources/images/icons/DGA-logo-icon.svg" alt="هيئة الحكومة الرقمية">
+<span>مسجل لدى هيئة الحكومة الرقمية برقم:</span>
+<a href="https://raqmi.dga.gov.sa/platforms/platforms/4d385b0e-6cdf-4b83-ceff-08ddc9ae4042/platform-license" target="_blank" rel="noopener">20260625369</a>
+</div>
+</div>
+</div>
+</div>
+<div class="goh__main">
+<a class="goh__logo" href="https://www.stats.gov.sa/ar/home" aria-label="الرئيسية">
+<img src="https://www.stats.gov.sa/o/resources/images/logo/logo.svg" alt="الهيئة العامة للإحصاء">
+</a>
+<nav class="goh__desktop" aria-label="القائمة الرئيسية">
+<ul class="goh__nav">
+<li class="goh__item">
+<button class="goh__trigger" type="button" aria-expanded="false">الهيئة<span>⌄</span>
+</button>
+<div class="goh__dropdown">
+<h3 class="goh__drop-title">الهيئة</h3>
+<div class="goh__links goh__links--compact">
+<a href="https://www.stats.gov.sa/ar/gastat-about-us">من نحن</a>
+<a href="https://www.stats.gov.sa/ar/board-of-directors">مجلس الإدارة</a>
+<a href="https://www.stats.gov.sa/ar/organization-chart">الهيكل التنظيمي</a>
+<a href="https://www.stats.gov.sa/ar/policies-and-strategies">السياسات والإستراتيجيات</a>
+<a href="https://www.stats.gov.sa/ar/tenders-and-procurement">المنافسات والمشتريات</a>
+<a href="https://www.stats.gov.sa/ar/budget-and-expenses">الميزانية والمصروفات</a>
+<a href="https://www.stats.gov.sa/ar/annual-report">التقرير السنوي</a>
+<a href="https://www.stats.gov.sa/ar/innovation">الابتكار الإحصائي</a>
+<a href="https://www.stats.gov.sa/ar/laws-and-regulations">الأنظمة واللوائح</a>
+<a href="https://www.stats.gov.sa/ar/the-second-saudi-statistics-forum">المنتدى السعودي الثاني للإحصاء</a>
+</div>
+</div>
+</li>
+<li class="goh__item goh__item--statistics-sections">
+<button class="goh__trigger" type="button" aria-expanded="false">البيانات والإحصاءات <span aria-hidden="true">⌄</span>
+</button>
+<div class="goh__dropdown goh__dropdown--statistics-sections">
+<h3 class="goh__drop-title">البيانات والإحصاءات</h3>
+<div class="goh__statistics-sections-list" role="list">
+<details class="goh__statistics-section goh__statistics-section--field" role="listitem">
+<summary>المجال الإحصائي<span aria-hidden="true">›</span>
+</summary>
+<div class="goh__statistics-subsections">
+<div class="goh__stat-main-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>الإحصاءات الاقتصادية</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout" aria-label="تفريعات الإحصاءات الاقتصادية">
+<a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=120034">إحصاءات الحسابات القومية</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=2197208">إحصاءات الاقتصادي الشامل</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=122937">إحصاءات الاقتصاد الرقمي</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=121417">إحصاءات الأسعار</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=419271">إحصاءات الأعمال</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=419285">إحصاءات الأعمال قصيرة المدى</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=419305">إحصاءات الاستثمار</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=499142">إحصاءات التجارة الدولية</a>
+</div>
+</div>
+<div class="goh__stat-main-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>الإحصاءات الاجتماعية</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout" aria-label="تفريعات الإحصاءات الاجتماعية">
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=123704">إحصاءات سوق العمل</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=123758">إحصاءات الصحة</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=123610">إحصاءات النوع الاجتماعي والتنوع</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=124141">إحصاءات حيوية و سكانية</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=119030">إحصاءات أساليب الحياة</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=127325">إحصاءات الأحوال المعيشية</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=123932">إحصاءات الرياضة</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=124262">إحصاءات التعليم</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=127380">إحصاءات تعداد السعودية ٢٠٢٢</a>
+</div>
+</div>
+<div class="goh__stat-main-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>الإحصاءات البيئية والمكانية</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout" aria-label="تفريعات الإحصاءات البيئية والمكانية">
+<a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124300">إحصاءات السياحة والحج والعمرة</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124890">إحصاءات النقل والخدمات اللوجستية</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124394">إحصاءات البيئة</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124516">إحصاءات الزراعة</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124703">إحصاءات الطاقة</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124984">إحصاءات مكانية</a>
+</div>
+</div>
+</div>
+</details>
+<details class="goh__statistics-section goh__statistics-section--subjects">
+<summary>حسب الموضوعات<span aria-hidden="true">›</span>
+</summary>
+<div class="goh__statistics-subsections goh__subject-groups">
+<div class="goh__stat-main-group goh__subject-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>السكان والمجتمع</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات السكان والمجتمع">
+<button type="button">إحصاءات السكان</button>
+<button type="button">التركيبة السكانية</button>
+<button type="button">المواليد والوفيات</button>
+<button type="button">الهجرة</button>
+<button type="button">الصحة</button>
+<button type="button">التعليم</button>
+<button type="button">الثقافة</button>
+<button type="button">الأمن والعدالة</button>
+<button type="button">جودة الحياة</button>
+<button type="button">الزواج والطلاق</button>
+<button type="button">العمل التطوعي</button>
+<button type="button">المؤشرات الاجتماعية</button>
+</div>
+</div>
+<div class="goh__stat-main-group goh__subject-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>سوق العمل والأسر والإسكان</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات سوق العمل والأسر والإسكان">
+<button type="button">سوق العمل</button>
+<button type="button">التوظيف</button>
+<button type="button">البطالة</button>
+<button type="button">الأجور</button>
+<button type="button">الوظائف الشاغرة</button>
+<button type="button">دخل وإنفاق الأسر</button>
+<button type="button">الإسكان</button>
+<button type="button">أسعار العقارات</button>
+<button type="button">الأراضي</button>
+</div>
+</div>
+<div class="goh__stat-main-group goh__subject-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>الاقتصاد والأسعار</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات الاقتصاد والأسعار">
+<button type="button">الحسابات القومية</button>
+<button type="button">الناتج المحلي الإجمالي</button>
+<button type="button">التضخم</button>
+<button type="button">مؤشرات الأسعار</button>
+<button type="button">المالية العامة</button>
+</div>
+</div>
+<div class="goh__stat-main-group goh__subject-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>الأعمال والصناعة</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات الأعمال والصناعة">
+<button type="button">قطاع الأعمال</button>
+<button type="button">الصناعة</button>
+<button type="button">الإنشاءات</button>
+<button type="button">الخدمات</button>
+<button type="button">الإنتاجية</button>
+<button type="button">المنشآت الاقتصادية</button>
+</div>
+</div>
+<div class="goh__stat-main-group goh__subject-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>التجارة والاستثمار والسياحة</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات التجارة والاستثمار والسياحة">
+<button type="button">التجارة الدولية</button>
+<button type="button">الصادرات</button>
+<button type="button">الواردات</button>
+<button type="button">ميزان المدفوعات</button>
+<button type="button">الاستثمار الأجنبي</button>
+<button type="button">السياحة</button>
+</div>
+</div>
+<div class="goh__stat-main-group goh__subject-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>البيئة والاستدامة</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات البيئة والاستدامة">
+<button type="button">البيئة</button>
+<button type="button">المياه</button>
+<button type="button">الطاقة</button>
+<button type="button">التغير المناخي</button>
+<button type="button">النفايات</button>
+<button type="button">الموارد الطبيعية</button>
+</div>
+</div>
+<div class="goh__stat-main-group goh__subject-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>النقل والبنية التحتية</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات النقل والبنية التحتية">
+<button type="button">النقل</button>
+<button type="button">الاتصالات</button>
+<button type="button">الاقتصاد الرقمي</button>
+<button type="button">الإنترنت</button>
+<button type="button">البنية التحتية</button>
+<button type="button">استخدام الأراضي</button>
+</div>
+</div>
+<div class="goh__stat-main-group goh__subject-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>المناطق والإحصاءات المكانية</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات المناطق والإحصاءات المكانية">
+<button type="button">المناطق الإدارية</button>
+<button type="button">المحافظات</button>
+<button type="button">المدن</button>
+<button type="button">الإحصاءات المكانية</button>
+<button type="button">المؤشرات الإقليمية</button>
+</div>
+</div>
+</div>
+</details>
+<details class="goh__statistics-section goh__statistics-section--regions">
+<summary>حسب المناطق<span aria-hidden="true">›</span>
+</summary>
+<div class="goh__region-flyout" aria-label="مناطق المملكة">
+<a href="regions.html?region=%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6">الرياض</a>
+<a href="regions.html?region=%D9%85%D9%83%D8%A9%20%D8%A7%D9%84%D9%85%D9%83%D8%B1%D9%85%D8%A9">مكة المكرمة</a>
+<a href="regions.html?region=%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9">المدينة المنورة</a>
+<a href="regions.html?region=%D8%A7%D9%84%D9%82%D8%B5%D9%8A%D9%85">القصيم</a>
+<a href="regions.html?region=%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9">المنطقة الشرقية</a>
+<a href="regions.html?region=%D8%B9%D8%B3%D9%8A%D8%B1">عسير</a>
+<a href="regions.html?region=%D8%AA%D8%A8%D9%88%D9%83">تبوك</a>
+<a href="regions.html?region=%D8%AD%D8%A7%D8%A6%D9%84">حائل</a>
+<a href="regions.html?region=%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF%20%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9">الحدود الشمالية</a>
+<a href="regions.html?region=%D8%AC%D8%A7%D8%B2%D8%A7%D9%86">جازان</a>
+<a href="regions.html?region=%D9%86%D8%AC%D8%B1%D8%A7%D9%86">نجران</a>
+<a href="regions.html?region=%D8%A7%D9%84%D8%A8%D8%A7%D8%AD%D8%A9">الباحة</a>
+<a href="regions.html?region=%D8%A7%D9%84%D8%AC%D9%88%D9%81">الجوف</a>
+</div>
+</details>
+<details class="goh__statistics-section goh__statistics-section--international">
+<summary>حسب المؤشرات والتقارير الدولية<span aria-hidden="true">›</span>
+</summary>
+<div class="goh__international-flyout" aria-label="المؤشرات الدولية">
+<div class="goh__international-goals-group">
+<button class="goh__international-goals-trigger" type="button" aria-expanded="false">
+<span>التنمية المستدامة</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__sdg-flyout" aria-label="أهداف التنمية المستدامة">
+<a href="https://www.stats.gov.sa/ar/w/no-poverty">الهدف 1: القضاء على الفقر</a>
+<a href="https://www.stats.gov.sa/ar/w/zero-hunger">الهدف 2: القضاء التام على الجوع</a>
+<a href="https://www.stats.gov.sa/ar/w/good-health-and-well-being">الهدف 3: الصحة الجيدة والرفاه</a>
+<a href="https://www.stats.gov.sa/ar/w/quality-education">الهدف 4: التعليم الجيد</a>
+<a href="https://www.stats.gov.sa/ar/w/gender-equality">الهدف 5: المساواة بين الجنسين</a>
+<a href="https://www.stats.gov.sa/ar/w/clean-water-and-sanitation">الهدف 6: المياه النظيفة والنظافة الصحية</a>
+<a href="https://www.stats.gov.sa/ar/w/affordable-and-clean-energy">الهدف 7: طاقة نظيفة وبأسعار معقولة</a>
+<a href="https://www.stats.gov.sa/ar/w/decent-work-and-economic-growth">الهدف 8: العمل اللائق ونمو الاقتصاد</a>
+<a href="https://www.stats.gov.sa/ar/w/industry-innovation-and-infrastructure">الهدف 9: الصناعة والابتكار والهياكل الأساسية</a>
+<a href="https://www.stats.gov.sa/ar/w/reduced-inequality">الهدف 10: الحد من أوجه عدم المساواة</a>
+<a href="https://www.stats.gov.sa/ar/w/sustainable-cities-and-communities">الهدف 11: مدن ومجتمعات محلية مستدامة</a>
+<a href="https://www.stats.gov.sa/ar/w/responsible-consumption-and-production">الهدف 12: الاستهلاك والإنتاج المسؤولان</a>
+<a href="https://www.stats.gov.sa/ar/w/climate-action">الهدف 13: العمل المناخي</a>
+<a href="https://www.stats.gov.sa/ar/w/life-below-water">الهدف 14: الحياة تحت الماء</a>
+<a href="https://www.stats.gov.sa/ar/w/life-on-land">الهدف 15: الحياة في البر</a>
+<a href="https://www.stats.gov.sa/ar/w/peace-justice-and-strong-institutions">الهدف 16: السلام والعدل والمؤسسات القوية</a>
+<a href="https://www.stats.gov.sa/ar/w/partnerships-to-achieve-the-goals">الهدف 17: عقد الشراكات لتحقيق الأهداف</a>
+</div>
+</div>
+<a href="https://www.stats.gov.sa/ar/international-reports">قابلية العيش في مدن السعودية</a>
+<a href="https://www.stats.gov.sa/ar/international-reports">مؤشرات السوق الخليجية المشتركة</a>
+</div>
+</details>
+</div>
+</div>
+</li>
+<li class="goh__item">
+<button class="goh__trigger" type="button" aria-expanded="false">الخدمات<span>⌄</span>
+</button>
+<div class="goh__dropdown">
+<h3 class="goh__drop-title">الخدمات</h3>
+<div class="goh__links goh__links--compact">
+<a href="https://www.stats.gov.sa/ar/statistical-information-request">طلب معلومات إحصائية</a>
+<a href="https://www.stats.gov.sa/ar/microdata-request">طلب البيانات الدقيقة</a>
+<a href="https://www.stats.gov.sa/ar/business-center">مركز الأعمال (الخدمات الإحصائية)</a>
+</div>
+</div>
+</li>
+<li class="goh__item">
+<button class="goh__trigger" type="button" aria-expanded="false">التوعية<span>⌄</span>
+</button>
+<div class="goh__dropdown">
+<h3 class="goh__drop-title">التوعية</h3>
+<div class="goh__links goh__links--compact">
+<a href="https://www.stats.gov.sa/ar/survey-awareness">توعية المسوح</a>
+<a href="https://www.stats.gov.sa/ar/statistical-knowledge-program">برنامج المعرفة الإحصائية</a>
+<a href="https://www.stats.gov.sa/ar/story-of-number">حكاية رقم</a>
+<a href="https://www.stats.gov.sa/ar/statistical-products">تعرف على المنتجات الإحصائية</a>
+<a href="https://www.stats.gov.sa/ar/self-enumeration">منصة الاستيفاء الذاتي</a>
+</div>
+</div>
+</li>
+<li class="goh__item">
+<button class="goh__trigger" type="button" aria-expanded="false">المنهجيات والمعايير<span>⌄</span>
+</button>
+<div class="goh__dropdown">
+<h3 class="goh__drop-title">المنهجيات والمعايير</h3>
+<div class="goh__links goh__links--compact">
+<a href="https://www.stats.gov.sa/ar/statistical-guides">الأدلة الإحصائية</a>
+<a href="https://www.stats.gov.sa/ar/classifications">التصانيف</a>
+<a href="https://www.stats.gov.sa/ar/glossary">معجم المصطلحات</a>
+<a href="https://www.stats.gov.sa/ar/editorial-policy">السياسة التحريرية ودليل كتابة الأعداد</a>
+</div>
+</div>
+</li>
+<li class="goh__item">
+<button class="goh__trigger" type="button" aria-expanded="false">المركز الإعلامي والفعاليات<span>⌄</span>
+</button>
+<div class="goh__dropdown">
+<h3 class="goh__drop-title">المركز الإعلامي والفعاليات</h3>
+<div class="goh__links goh__links--compact">
+<a href="https://www.stats.gov.sa/ar/un-world-data-forum-2026">منتدى الأمم المتحدة العالمي السادس للبيانات 2026</a>
+<a href="https://www.stats.gov.sa/ar/data-innovation-hackathon">هكاثون الابتكار في البيانات</a>
+<a href="https://www.stats.gov.sa/ar/news">الأخبار</a>
+<a href="https://www.stats.gov.sa/ar/media-center">الوسائط</a>
+<a href="https://www.stats.gov.sa/ar/transfers-platform">منصة المنقولات</a>
+<a href="https://www.stats.gov.sa/ar/identity">هوية الهيئة</a>
+<a href="https://www.stats.gov.sa/ar/activities-and-achievements">النشاطات والإنجازات</a>
+</div>
+</div>
+</li>
+<li class="goh__item">
+<button class="goh__trigger" type="button" aria-expanded="false">تواصل معنا<span>⌄</span>
+</button>
+<div class="goh__dropdown">
+<h3 class="goh__drop-title">تواصل معنا</h3>
+<div class="goh__links goh__links--compact">
+<a href="https://www.stats.gov.sa/ar/contact-us">تواصل معنا</a>
+<a href="https://www.stats.gov.sa/ar/branches">الفروع</a>
+<a href="https://www.stats.gov.sa/ar/e-participation">المشاركة الإلكترونية</a>
+<a href="https://www.stats.gov.sa/ar/frequently-asked-questions">الأسئلة الشائعة</a>
+<a href="https://www.stats.gov.sa/ar/careers">التوظيف</a>
+<a href="https://www.stats.gov.sa/ar/cooperative-training">التدريب التعاوني</a>
+</div>
+</div>
+</li>
+</ul>
+</nav>
+<div class="goh__actions">
+<button class="goh__action goh__search-toggle" type="button" aria-label="فتح البحث" aria-expanded="false">
+<svg width="21" height="21" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+<circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+<path d="m16 16 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+</svg>
+</button>
+<a class="goh__action goh__action--lang" href="https://www.stats.gov.sa/en/" lang="en">English</a>
+<a class="goh__action goh__login goh__login--icon" href="https://www.stats.gov.sa/ar/c/portal/login" aria-label="تسجيل الدخول" title="تسجيل الدخول">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+<circle cx="12" cy="8" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+<path d="M5.5 20c.55-4 2.7-6 6.5-6s5.95 2 6.5 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+</svg>
+<span class="goh__sr-only">تسجيل الدخول</span>
+</a>
+<button class="goh__action goh__hamb" type="button" aria-label="فتح القائمة" aria-expanded="false">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+<path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+</svg>
+</button>
+</div>
+</div>
+<div class="goh__search" role="search">
+<div class="goh__search-head">
+<h3>بحث</h3>
+<button class="goh__action goh__search-close" type="button" aria-label="إغلاق البحث">✕</button>
+</div>
+<form class="goh__search-form" action="https://www.stats.gov.sa/ar/search" method="get">
+<input class="goh__search-input" name="q" type="search" placeholder="ابحث في موقع الهيئة العامة للإحصاء" aria-label="كلمة البحث">
+<button class="goh__search-submit" type="submit">بحث</button>
+</form>
+<div class="goh__popular">
+<strong>الكلمات الأعلى بحثًا:</strong>
+<a href="https://www.stats.gov.sa/ar/search?q=الناتج المحلي الإجمالي">الناتج المحلي الإجمالي</a>
+<a href="https://www.stats.gov.sa/ar/search?q=الإنتاج الصناعي">الإنتاج الصناعي</a>
+<a href="https://www.stats.gov.sa/ar/search?q=سوق العمل">سوق العمل</a>
+<a href="https://www.stats.gov.sa/ar/search?q=الأسعار">الأسعار</a>
+</div>
+</div>
+<div class="goh__mobile-panel">
+<div class="goh__mobile-item">
+<button type="button" class="goh__mobile-trigger" aria-expanded="false">
+<span>الهيئة</span>
+<span>⌄</span>
+</button>
+<div class="goh__mobile-menu">
+<a href="https://www.stats.gov.sa/ar/gastat-about-us">من نحن</a>
+<a href="https://www.stats.gov.sa/ar/board-of-directors">مجلس الإدارة</a>
+<a href="https://www.stats.gov.sa/ar/organization-chart">الهيكل التنظيمي</a>
+<a href="https://www.stats.gov.sa/ar/policies-and-strategies">السياسات والإستراتيجيات</a>
+<a href="https://www.stats.gov.sa/ar/tenders-and-procurement">المنافسات والمشتريات</a>
+<a href="https://www.stats.gov.sa/ar/budget-and-expenses">الميزانية والمصروفات</a>
+<a href="https://www.stats.gov.sa/ar/annual-report">التقرير السنوي</a>
+<a href="https://www.stats.gov.sa/ar/innovation">الابتكار الإحصائي</a>
+<a href="https://www.stats.gov.sa/ar/laws-and-regulations">الأنظمة واللوائح</a>
+<a href="https://www.stats.gov.sa/ar/the-second-saudi-statistics-forum">المنتدى السعودي الثاني للإحصاء</a>
+</div>
+</div>
+<div class="goh__mobile-item goh__mobile-item--statistics-sections">
+<button type="button" class="goh__mobile-trigger" aria-expanded="false">
+<span>البيانات والإحصاءات</span>
+<span aria-hidden="true">⌄</span>
+</button>
+<div class="goh__mobile-menu goh__mobile-menu--statistics-sections">
+<details class="goh__statistics-section goh__statistics-section--field">
+<summary>المجال الإحصائي<span aria-hidden="true">›</span>
+</summary>
+<div class="goh__statistics-subsections">
+<div class="goh__stat-main-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>الإحصاءات الاقتصادية</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout" aria-label="تفريعات الإحصاءات الاقتصادية">
+<a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=120034">إحصاءات الحسابات القومية</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=2197208">إحصاءات الاقتصادي الشامل</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=122937">إحصاءات الاقتصاد الرقمي</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=121417">إحصاءات الأسعار</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=419271">إحصاءات الأعمال</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=419285">إحصاءات الأعمال قصيرة المدى</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=419305">إحصاءات الاستثمار</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119021&subindex=499142">إحصاءات التجارة الدولية</a>
+</div>
+</div>
+<div class="goh__stat-main-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>الإحصاءات الاجتماعية</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout" aria-label="تفريعات الإحصاءات الاجتماعية">
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=123704">إحصاءات سوق العمل</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=123758">إحصاءات الصحة</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=123610">إحصاءات النوع الاجتماعي والتنوع</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=124141">إحصاءات حيوية و سكانية</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=119030">إحصاءات أساليب الحياة</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=127325">إحصاءات الأحوال المعيشية</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=123932">إحصاءات الرياضة</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=124262">إحصاءات التعليم</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=119025&subindex=127380">إحصاءات تعداد السعودية ٢٠٢٢</a>
+</div>
+</div>
+<div class="goh__stat-main-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>الإحصاءات البيئية والمكانية</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout" aria-label="تفريعات الإحصاءات البيئية والمكانية">
+<a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124300">إحصاءات السياحة والحج والعمرة</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124890">إحصاءات النقل والخدمات اللوجستية</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124394">إحصاءات البيئة</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124516">إحصاءات الزراعة</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124703">إحصاءات الطاقة</a>
+<a href="https://www.stats.gov.sa/ar/statistics?index=124295&subindex=124984">إحصاءات مكانية</a>
+</div>
+</div>
+</div>
+</details>
+<details class="goh__statistics-section goh__statistics-section--subjects">
+<summary>حسب الموضوعات<span aria-hidden="true">›</span>
+</summary>
+<div class="goh__statistics-subsections goh__subject-groups">
+<div class="goh__stat-main-group goh__subject-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>السكان والمجتمع</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات السكان والمجتمع">
+<button type="button">إحصاءات السكان</button>
+<button type="button">التركيبة السكانية</button>
+<button type="button">المواليد والوفيات</button>
+<button type="button">الهجرة</button>
+<button type="button">الصحة</button>
+<button type="button">التعليم</button>
+<button type="button">الثقافة</button>
+<button type="button">الأمن والعدالة</button>
+<button type="button">جودة الحياة</button>
+<button type="button">الزواج والطلاق</button>
+<button type="button">العمل التطوعي</button>
+<button type="button">المؤشرات الاجتماعية</button>
+</div>
+</div>
+<div class="goh__stat-main-group goh__subject-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>سوق العمل والأسر والإسكان</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات سوق العمل والأسر والإسكان">
+<button type="button">سوق العمل</button>
+<button type="button">التوظيف</button>
+<button type="button">البطالة</button>
+<button type="button">الأجور</button>
+<button type="button">الوظائف الشاغرة</button>
+<button type="button">دخل وإنفاق الأسر</button>
+<button type="button">الإسكان</button>
+<button type="button">أسعار العقارات</button>
+<button type="button">الأراضي</button>
+</div>
+</div>
+<div class="goh__stat-main-group goh__subject-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>الاقتصاد والأسعار</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات الاقتصاد والأسعار">
+<button type="button">الحسابات القومية</button>
+<button type="button">الناتج المحلي الإجمالي</button>
+<button type="button">التضخم</button>
+<button type="button">مؤشرات الأسعار</button>
+<button type="button">المالية العامة</button>
+</div>
+</div>
+<div class="goh__stat-main-group goh__subject-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>الأعمال والصناعة</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات الأعمال والصناعة">
+<button type="button">قطاع الأعمال</button>
+<button type="button">الصناعة</button>
+<button type="button">الإنشاءات</button>
+<button type="button">الخدمات</button>
+<button type="button">الإنتاجية</button>
+<button type="button">المنشآت الاقتصادية</button>
+</div>
+</div>
+<div class="goh__stat-main-group goh__subject-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>التجارة والاستثمار والسياحة</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات التجارة والاستثمار والسياحة">
+<button type="button">التجارة الدولية</button>
+<button type="button">الصادرات</button>
+<button type="button">الواردات</button>
+<button type="button">ميزان المدفوعات</button>
+<button type="button">الاستثمار الأجنبي</button>
+<button type="button">السياحة</button>
+</div>
+</div>
+<div class="goh__stat-main-group goh__subject-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>البيئة والاستدامة</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات البيئة والاستدامة">
+<button type="button">البيئة</button>
+<button type="button">المياه</button>
+<button type="button">الطاقة</button>
+<button type="button">التغير المناخي</button>
+<button type="button">النفايات</button>
+<button type="button">الموارد الطبيعية</button>
+</div>
+</div>
+<div class="goh__stat-main-group goh__subject-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>النقل والبنية التحتية</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات النقل والبنية التحتية">
+<button type="button">النقل</button>
+<button type="button">الاتصالات</button>
+<button type="button">الاقتصاد الرقمي</button>
+<button type="button">الإنترنت</button>
+<button type="button">البنية التحتية</button>
+<button type="button">استخدام الأراضي</button>
+</div>
+</div>
+<div class="goh__stat-main-group goh__subject-group">
+<button class="goh__stat-main-group-trigger" type="button" aria-expanded="false">
+<span>المناطق والإحصاءات المكانية</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__stat-topic-flyout goh__subject-items" aria-label="موضوعات المناطق والإحصاءات المكانية">
+<button type="button">المناطق الإدارية</button>
+<button type="button">المحافظات</button>
+<button type="button">المدن</button>
+<button type="button">الإحصاءات المكانية</button>
+<button type="button">المؤشرات الإقليمية</button>
+</div>
+</div>
+</div>
+</details>
+<details class="goh__statistics-section goh__statistics-section--regions">
+<summary>حسب المناطق<span aria-hidden="true">›</span>
+</summary>
+<div class="goh__region-flyout" aria-label="مناطق المملكة">
+<a href="regions.html?region=%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6">الرياض</a>
+<a href="regions.html?region=%D9%85%D9%83%D8%A9%20%D8%A7%D9%84%D9%85%D9%83%D8%B1%D9%85%D8%A9">مكة المكرمة</a>
+<a href="regions.html?region=%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9">المدينة المنورة</a>
+<a href="regions.html?region=%D8%A7%D9%84%D9%82%D8%B5%D9%8A%D9%85">القصيم</a>
+<a href="regions.html?region=%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9">المنطقة الشرقية</a>
+<a href="regions.html?region=%D8%B9%D8%B3%D9%8A%D8%B1">عسير</a>
+<a href="regions.html?region=%D8%AA%D8%A8%D9%88%D9%83">تبوك</a>
+<a href="regions.html?region=%D8%AD%D8%A7%D8%A6%D9%84">حائل</a>
+<a href="regions.html?region=%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF%20%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9">الحدود الشمالية</a>
+<a href="regions.html?region=%D8%AC%D8%A7%D8%B2%D8%A7%D9%86">جازان</a>
+<a href="regions.html?region=%D9%86%D8%AC%D8%B1%D8%A7%D9%86">نجران</a>
+<a href="regions.html?region=%D8%A7%D9%84%D8%A8%D8%A7%D8%AD%D8%A9">الباحة</a>
+<a href="regions.html?region=%D8%A7%D9%84%D8%AC%D9%88%D9%81">الجوف</a>
+</div>
+</details>
+<details class="goh__statistics-section goh__statistics-section--international">
+<summary>حسب المؤشرات والتقارير الدولية<span aria-hidden="true">›</span>
+</summary>
+<div class="goh__international-flyout" aria-label="المؤشرات الدولية">
+<div class="goh__international-goals-group">
+<button class="goh__international-goals-trigger" type="button" aria-expanded="false">
+<span>التنمية المستدامة</span>
+<span aria-hidden="true">›</span>
+</button>
+<div class="goh__sdg-flyout" aria-label="أهداف التنمية المستدامة">
+<a href="https://www.stats.gov.sa/ar/w/no-poverty">الهدف 1: القضاء على الفقر</a>
+<a href="https://www.stats.gov.sa/ar/w/zero-hunger">الهدف 2: القضاء التام على الجوع</a>
+<a href="https://www.stats.gov.sa/ar/w/good-health-and-well-being">الهدف 3: الصحة الجيدة والرفاه</a>
+<a href="https://www.stats.gov.sa/ar/w/quality-education">الهدف 4: التعليم الجيد</a>
+<a href="https://www.stats.gov.sa/ar/w/gender-equality">الهدف 5: المساواة بين الجنسين</a>
+<a href="https://www.stats.gov.sa/ar/w/clean-water-and-sanitation">الهدف 6: المياه النظيفة والنظافة الصحية</a>
+<a href="https://www.stats.gov.sa/ar/w/affordable-and-clean-energy">الهدف 7: طاقة نظيفة وبأسعار معقولة</a>
+<a href="https://www.stats.gov.sa/ar/w/decent-work-and-economic-growth">الهدف 8: العمل اللائق ونمو الاقتصاد</a>
+<a href="https://www.stats.gov.sa/ar/w/industry-innovation-and-infrastructure">الهدف 9: الصناعة والابتكار والهياكل الأساسية</a>
+<a href="https://www.stats.gov.sa/ar/w/reduced-inequality">الهدف 10: الحد من أوجه عدم المساواة</a>
+<a href="https://www.stats.gov.sa/ar/w/sustainable-cities-and-communities">الهدف 11: مدن ومجتمعات محلية مستدامة</a>
+<a href="https://www.stats.gov.sa/ar/w/responsible-consumption-and-production">الهدف 12: الاستهلاك والإنتاج المسؤولان</a>
+<a href="https://www.stats.gov.sa/ar/w/climate-action">الهدف 13: العمل المناخي</a>
+<a href="https://www.stats.gov.sa/ar/w/life-below-water">الهدف 14: الحياة تحت الماء</a>
+<a href="https://www.stats.gov.sa/ar/w/life-on-land">الهدف 15: الحياة في البر</a>
+<a href="https://www.stats.gov.sa/ar/w/peace-justice-and-strong-institutions">الهدف 16: السلام والعدل والمؤسسات القوية</a>
+<a href="https://www.stats.gov.sa/ar/w/partnerships-to-achieve-the-goals">الهدف 17: عقد الشراكات لتحقيق الأهداف</a>
+</div>
+</div>
+<a href="https://www.stats.gov.sa/ar/international-reports">قابلية العيش في مدن السعودية</a>
+<a href="https://www.stats.gov.sa/ar/international-reports">مؤشرات السوق الخليجية المشتركة</a>
+</div>
+</details>
+</div>
+</div>
+<div class="goh__mobile-item">
+<button type="button" class="goh__mobile-trigger" aria-expanded="false">
+<span>الخدمات</span>
+<span>⌄</span>
+</button>
+<div class="goh__mobile-menu">
+<a href="https://www.stats.gov.sa/ar/statistical-information-request">طلب معلومات إحصائية</a>
+<a href="https://www.stats.gov.sa/ar/microdata-request">طلب البيانات الدقيقة</a>
+<a href="https://www.stats.gov.sa/ar/business-center">مركز الأعمال (الخدمات الإحصائية)</a>
+</div>
+</div>
+<div class="goh__mobile-item">
+<button type="button" class="goh__mobile-trigger" aria-expanded="false">
+<span>التوعية</span>
+<span>⌄</span>
+</button>
+<div class="goh__mobile-menu">
+<a href="https://www.stats.gov.sa/ar/survey-awareness">توعية المسوح</a>
+<a href="https://www.stats.gov.sa/ar/statistical-knowledge-program">برنامج المعرفة الإحصائية</a>
+<a href="https://www.stats.gov.sa/ar/story-of-number">حكاية رقم</a>
+<a href="https://www.stats.gov.sa/ar/statistical-products">تعرف على المنتجات الإحصائية</a>
+<a href="https://www.stats.gov.sa/ar/self-enumeration">منصة الاستيفاء الذاتي</a>
+</div>
+</div>
+<div class="goh__mobile-item">
+<button type="button" class="goh__mobile-trigger" aria-expanded="false">
+<span>المنهجيات والمعايير</span>
+<span>⌄</span>
+</button>
+<div class="goh__mobile-menu">
+<a href="https://www.stats.gov.sa/ar/statistical-guides">الأدلة الإحصائية</a>
+<a href="https://www.stats.gov.sa/ar/classifications">التصانيف</a>
+<a href="https://www.stats.gov.sa/ar/glossary">معجم المصطلحات</a>
+<a href="https://www.stats.gov.sa/ar/editorial-policy">السياسة التحريرية ودليل كتابة الأعداد</a>
+</div>
+</div>
+<div class="goh__mobile-item">
+<button type="button" class="goh__mobile-trigger" aria-expanded="false">
+<span>المركز الإعلامي والفعاليات</span>
+<span>⌄</span>
+</button>
+<div class="goh__mobile-menu">
+<a href="https://www.stats.gov.sa/ar/un-world-data-forum-2026">منتدى الأمم المتحدة العالمي السادس للبيانات 2026</a>
+<a href="https://www.stats.gov.sa/ar/data-innovation-hackathon">هكاثون الابتكار في البيانات</a>
+<a href="https://www.stats.gov.sa/ar/news">الأخبار</a>
+<a href="https://www.stats.gov.sa/ar/media-center">الوسائط</a>
+<a href="https://www.stats.gov.sa/ar/transfers-platform">منصة المنقولات</a>
+<a href="https://www.stats.gov.sa/ar/identity">هوية الهيئة</a>
+<a href="https://www.stats.gov.sa/ar/activities-and-achievements">النشاطات والإنجازات</a>
+</div>
+</div>
+<div class="goh__mobile-item">
+<button type="button" class="goh__mobile-trigger" aria-expanded="false">
+<span>تواصل معنا</span>
+<span>⌄</span>
+</button>
+<div class="goh__mobile-menu">
+<a href="https://www.stats.gov.sa/ar/contact-us">تواصل معنا</a>
+<a href="https://www.stats.gov.sa/ar/branches">الفروع</a>
+<a href="https://www.stats.gov.sa/ar/e-participation">المشاركة الإلكترونية</a>
+<a href="https://www.stats.gov.sa/ar/frequently-asked-questions">الأسئلة الشائعة</a>
+<a href="https://www.stats.gov.sa/ar/careers">التوظيف</a>
+<a href="https://www.stats.gov.sa/ar/cooperative-training">التدريب التعاوني</a>
+</div>
+</div>
+</div>
+</header>
+<section class="page-breadcrumb" aria-labelledby="page-title">
+<div class="page-breadcrumb__container">
+<nav class="page-breadcrumb__inner" aria-label="مسار التنقل">
+<a href="https://www.stats.gov.sa/ar/home">الرئيسية</a>
+<span class="page-breadcrumb__separator" aria-hidden="true">‹</span>
+<a href="https://www.stats.gov.sa/ar/gastat-about-us">الهيئة</a>
+<span class="page-breadcrumb__separator" aria-hidden="true">‹</span>
+<a href="index.html">المجموعات واللجان الاستشارية</a>
+<span class="page-breadcrumb__separator" aria-hidden="true">‹</span>
+<span aria-current="page">اللجنة الإعلامية</span>
+</nav>
+<div class="page-breadcrumb__heading">
+<h1 id="page-title">اللجنة الإعلامية</h1>
+<p>خبرات إعلامية تدعم التواصل الفاعل وتعزز الوعي بالمنتجات والمعلومات الإحصائية.</p>
+</div>
+</div>
+</section>
+<main id="main-content" class="advisory-main detail-main">
+<section class="detail-intro">
+<div class="page-shell detail-intro__grid">
+<div class="detail-mark">
+<svg viewBox="0 0 24 24" aria-hidden="true">
+<path d="m3 11 18-5v12L3 13zM11.6 15.4 13 21H7l-1.8-7"/>
+<path d="M21 10v4"/>
+</svg>
+</div>
+<div>
+<h2>عن اللجنة</h2>
+<p>فريق استشاري لتقديم الاستشارات ورفع التوصيات فيما يخص أنشطة وبرامج الوعي والمعرفة الإحصائية، الداعمة لتعزيز الصورة الذهنية ورفع مستوى الثقة في مخرجات الهيئة لدى كافة الفئات المستهدفة.</p>
+</div>
+</div>
+</section>
+<section class="detail-section detail-section--dark facts-section">
+<div class="page-shell">
+<div class="facts-grid">
+<div>
+<span>مدة العضوية</span>
+<strong>سنة</strong>
+<small>قابلة للتجديد بقرار يصدر من الرئيس</small>
+</div>
+<div>
+<span>عدد الأعضاء</span>
+<strong>8</strong>
+<small>من خبرات وقطاعات متنوعة</small>
+</div>
+<div>
+<span>دورية الاجتماعات</span>
+<strong>ربع سنوية</strong>
+<small>واجتماعات إضافية عند الحاجة</small>
+</div>
+</div>
+</div>
+</section>
+<section class="detail-section detail-section--soft">
+<div class="page-shell two-column">
+<div>
+<h2>أهداف واضحة تدعم أعمال الهيئة</h2>
+<p>تعمل اللجنة الإعلامية ضمن نطاق استشاري، وتقدم رؤاها وتوصياتها وفق الموضوعات المحالة إليها وبما يتوافق مع الأنظمة والسياسات المعتمدة.</p>
+</div>
+<ol class="goal-list">
+<li>
+<span>01</span>
+<p>تقديم الاستشارات في مجال العلاقات العامة والاتصال المؤسسي، ومراجعة خطط رفع الوعي تجاه الهيئة العامة للإحصاء وأعمالها الإحصائية.</p>
+</li>
+<li>
+<span>02</span>
+<p>اقتراح وتطوير الاستراتيجيات الخاصة بالعمل الاتصالي والإعلامي والتوعوي، والتي تشمل الفئات والقنوات المستهدفة، بما يحقق رفع مستوى الثقة وتعزيز العلاقة مع أصحاب المصلحة الداخليين والخارجيين.</p>
+</li>
+<li>
+<span>03</span>
+<p>صياغة ومراجعة الرسائل الإعلامية والاتصالية والتوعوية في حملات الهيئة الرئيسية.</p>
+</li>
+<li>
+<span>04</span>
+<p>مراجعة أنشطة التوعية العامة للهيئة، واقتراح الأنشطة وتقديم التقارير الخاصة بها.</p>
+</li>
+<li>
+<span>05</span>
+<p>اقتراح أوجه التعاون مع الجهات والمنظمات المحلية والخارجية والدولية في إطار رفع الوعي.</p>
+</li>
+<li>
+<span>06</span>
+<p>إبداء الرأي بشأن الفرص والتحديات في المواضيع ذات العلاقة المباشرة أو غير المباشرة باختصاصات الهيئة محليًا وإقليميًا ودوليًا.</p>
+</li>
+<li>
+<span>07</span>
+<p>ما يُسند للفريق من أعمال في سبيل تحقيق أهداف الفريق الاستشاري.</p>
+</li>
+</ol>
+</div>
+</section>
+<section class="detail-section members-section">
+<div class="page-shell">
+<div class="section-head">
+<div>
+<h2>خبرات متنوعة ورؤية مشتركة</h2>
+<p>يتكون فريق التوعية من ثمانية أعضاء، منهم خمسة أعضاء مستقلين، ويتم تعيينهم من قبل رئيس الهيئة.</p>
+</div>
+</div>
+<div class="member-grid">
+<article class="member-card">
+<div class="member-photo" aria-hidden="true">
+<img src="assets/member-examples.png" alt="" style="--member-col:0;--member-row:0">
+</div>
+<div class="member-card__content">
+<span class="member-role">الرئيس</span>
+<h3>رئيس الهيئة العامة للإحصاء</h3>
+<p>رئيس الفريق الاستشاري</p>
+</div>
+</article>
+<article class="member-card">
+<div class="member-photo" aria-hidden="true">
+<img src="assets/member-examples.png" alt="" style="--member-col:0;--member-row:1">
+</div>
+<div class="member-card__content">
+<span class="member-role">عضو مستقل</span>
+<h3>عضو مستقل</h3>
+<p>من ذوي الاختصاص</p>
+</div>
+</article>
+<article class="member-card">
+<div class="member-photo" aria-hidden="true">
+<img src="assets/member-examples.png" alt="" style="--member-col:1;--member-row:0">
+</div>
+<div class="member-card__content">
+<span class="member-role">عضو مستقل</span>
+<h3>عضو مستقل</h3>
+<p>من ذوي الاختصاص</p>
+</div>
+</article>
+<article class="member-card">
+<div class="member-photo" aria-hidden="true">
+<img src="assets/member-examples.png" alt="" style="--member-col:1;--member-row:1">
+</div>
+<div class="member-card__content">
+<span class="member-role">عضو مستقل</span>
+<h3>عضو مستقل</h3>
+<p>من ذوي الاختصاص</p>
+</div>
+</article>
+<article class="member-card">
+<div class="member-photo" aria-hidden="true">
+<img src="assets/member-examples.png" alt="" style="--member-col:2;--member-row:0">
+</div>
+<div class="member-card__content">
+<span class="member-role">عضو مستقل</span>
+<h3>عضو مستقل</h3>
+<p>من ذوي الاختصاص</p>
+</div>
+</article>
+<article class="member-card">
+<div class="member-photo" aria-hidden="true">
+<img src="assets/member-examples.png" alt="" style="--member-col:2;--member-row:1">
+</div>
+<div class="member-card__content">
+<span class="member-role">عضو مستقل</span>
+<h3>عضو مستقل</h3>
+<p>من ذوي الاختصاص</p>
+</div>
+</article>
+<article class="member-card">
+<div class="member-photo" aria-hidden="true">
+<img src="assets/member-examples.png" alt="" style="--member-col:3;--member-row:0">
+</div>
+<div class="member-card__content">
+<span class="member-role">عضو من الهيئة</span>
+<h3>عضو من منسوبي الهيئة</h3>
+<p>من المعنيين بمهمة الفريق الاستشاري</p>
+</div>
+</article>
+<article class="member-card">
+<div class="member-photo" aria-hidden="true">
+<img src="assets/member-examples.png" alt="" style="--member-col:3;--member-row:1">
+</div>
+<div class="member-card__content">
+<span class="member-role">عضو من الهيئة</span>
+<h3>عضو من منسوبي الهيئة</h3>
+<p>من المعنيين بمهمة الفريق الاستشاري</p>
+</div>
+</article>
+</div>
+<p class="member-example-note">صور وتشكيل تجريبي لأغراض العرض الداخلي.</p>
+</div>
+</section>
+<section class="contact-strip">
+<div class="page-shell contact-strip__inner">
+<div>
+<h2>للاستفسارات المتعلقة بـاللجنة الإعلامية</h2>
+<p>يمكن التواصل مع أمانة اللجنة الإعلامية عبر قنوات الهيئة الرسمية.</p>
+</div>
+<a href="https://www.stats.gov.sa/ar/contact-us">تواصل معنا <span aria-hidden="true">←</span>
+</a>
+</div>
+</section>
+<section class="back-section">
+<div class="page-shell">
+<a class="back-link" href="index.html">
+<span aria-hidden="true">→</span> العودة إلى المجموعات واللجان الاستشارية</a>
+</div>
+</section>
+</main>
+<footer>
 <div class="footer-grid">
 <div>
 <h4>تابعنا على</h4>
 <div class="social-row">
-<a href="#">in</a><a href="#">▶</a><a href="#">◎</a><a href="#">f</a><a href="#">𝕏</a>
+<a href="#">in</a>
+<a href="#">▶</a>
+<a href="#">◎</a>
+<a href="#">f</a>
+<a href="#">𝕏</a>
 </div>
 </div>
 <div>
 <h4>روابط ذات صلة</h4>
 <ul>
-<li><a href="#">وزارة الاقتصاد والتخطيط</a></li>
-<li><a href="#">منصة البيانات المفتوحة</a></li>
-<li><a href="#">التحول الرقمي وإستراتيجية الحكومة الرقمية</a></li>
-<li><a href="#">رؤية المملكة 2030</a></li>
+<li>
+<a href="#">وزارة الاقتصاد والتخطيط</a>
+</li>
+<li>
+<a href="#">منصة البيانات المفتوحة</a>
+</li>
+<li>
+<a href="#">التحول الرقمي وإستراتيجية الحكومة الرقمية</a>
+</li>
+<li>
+<a href="#">رؤية المملكة 2030</a>
+</li>
 </ul>
 </div>
 <div>
 <h4>المساعدة والدعم</h4>
 <ul>
-<li><a href="#">تواصل معنا</a></li>
-<li><a href="#">طلب معلومات إحصائية</a></li>
-<li><a href="#">تقديم شكوى</a></li>
-<li><a href="#">الأسئلة الشائعة</a></li>
+<li>
+<a href="#">تواصل معنا</a>
+</li>
+<li>
+<a href="#">طلب معلومات إحصائية</a>
+</li>
+<li>
+<a href="#">تقديم شكوى</a>
+</li>
+<li>
+<a href="#">الأسئلة الشائعة</a>
+</li>
 </ul>
 </div>
 <div>
 <h4>نظرة عامة</h4>
 <ul>
-<li><a href="#">سياسة حرية المعلومات</a></li>
-<li><a href="#">الأخبار</a></li>
-<li><a href="#">إحصاءات ومؤشرات البوابة</a></li>
-<li><a href="#">خريطة الموقع</a></li>
+<li>
+<a href="#">سياسة حرية المعلومات</a>
+</li>
+<li>
+<a href="#">الأخبار</a>
+</li>
+<li>
+<a href="#">إحصاءات ومؤشرات البوابة</a>
+</li>
+<li>
+<a href="#">خريطة الموقع</a>
+</li>
 </ul>
 </div>
 </div>
@@ -5757,5 +6772,22 @@ html{scroll-behavior:auto!important}
 <script id="goh-statistics-copy-nav-font">
 (()=>{const sync=()=>{const target=document.querySelector("#goh-official-nav .goh__item--statistics-sections>.goh__trigger");const peers=[...document.querySelectorAll("#goh-official-nav .goh__desktop .goh__trigger")];const source=peers.find(el=>el!==target&&el.textContent.includes("الخدمات"))||peers.find(el=>el!==target);if(!target||!source)return;const cs=getComputedStyle(source);["font-family","font-size","font-weight","font-style","line-height","letter-spacing"].forEach(prop=>target.style.setProperty(prop,cs.getPropertyValue(prop),"important"));};document.readyState==="loading"?document.addEventListener("DOMContentLoaded",sync):sync();window.addEventListener("load",sync);})();
 </script>
+<script id="committee-facts-content-fix">
+(()=>{
+  const facts=[...document.querySelectorAll('.facts-grid > div')];
+  const membership=facts.find(card=>card.querySelector('span')?.textContent.trim()==='مدة العضوية');
+  const members=facts.find(card=>card.querySelector('span')?.textContent.trim()==='عدد الأعضاء');
+  if(membership){
+    membership.querySelector('strong').textContent='سنة';
+    membership.querySelector('small').textContent='قابلة للتجديد بقرار يصدر من الرئيس';
+  }
+  if(members) members.querySelector('strong').textContent='8';
+})();
+</script>
+<style id="committee-facts-three-columns">
+.facts-section .facts-grid{grid-template-columns:repeat(3,1fr)}
+@media(max-width:900px){.facts-section .facts-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:767px){.facts-section .facts-grid{grid-template-columns:1fr}}
+</style>
 </body>
 </html>
